@@ -1,0 +1,551 @@
+{
+ "headers": {
+  "7cc69f9863_Homo_sapiens.gene_info.gz": {
+   "header": [
+    "tax_id",
+    "GeneID",
+    "Symbol",
+    "LocusTag",
+    "Synonyms",
+    "dbXrefs",
+    "chromosome",
+    "map_location",
+    "description",
+    "type_of_gene",
+    "Symbol_from_nomenclature_authority",
+    "Full_name_from_nomenclature_authority",
+    "Nomenclature_status",
+    "Other_designations",
+    "Modification_date",
+    "Feature_type"
+   ],
+   "first_row": [
+    "9606",
+    "1",
+    "A1BG",
+    "-",
+    "A1B|ABG|GAB|HYST2477",
+    "MIM:138670|HGNC:HGNC:5|Ensembl:ENSG00000121410|AllianceGenome:HGNC:5",
+    "19",
+    "19q13.43",
+    "alpha-1-B glycoprotein",
+    "protein-coding",
+    "A1BG",
+    "alpha-1-B glycoprotein",
+    "O",
+    "alpha-1B-glycoprotein|HEL-S-163pA|epididymis secretory sperm binding protein Li 163pA",
+    "20260910",
+    "-"
+   ]
+  },
+  "d6d8878d86_Mus_musculus.gene_info.gz": {
+   "header": [
+    "tax_id",
+    "GeneID",
+    "Symbol",
+    "LocusTag",
+    "Synonyms",
+    "dbXrefs",
+    "chromosome",
+    "map_location",
+    "description",
+    "type_of_gene",
+    "Symbol_from_nomenclature_authority",
+    "Full_name_from_nomenclature_authority",
+    "Nomenclature_status",
+    "Other_designations",
+    "Modification_date",
+    "Feature_type"
+   ],
+   "first_row": [
+    "10090",
+    "11287",
+    "Pzp2",
+    "-",
+    "A1m|A2m|MAM|Pzp",
+    "MGI:MGI:87854|Ensembl:ENSMUSG00000030359|AllianceGenome:MGI:87854",
+    "6",
+    "6 F3|6 63.02 cM",
+    "PZP alpha-2-macroglobulin like 2",
+    "protein-coding",
+    "Pzp2",
+    "PZP alpha-2-macroglobulin like 2",
+    "O",
+    "pregnancy zone protein|PZP, alpha-2-macroglobulin like|alpha 1 macroglobulin|alpha-2-M|alpha-2-macroglobulin",
+    "20260910",
+    "-"
+   ]
+  },
+  "430408bfd1_stream": {
+   "header": [
+    "Entry",
+    "Gene Names (primary)",
+    "Protein names",
+    "Keywords",
+    "Subcellular location [CC]"
+   ],
+   "first_row": [
+    "A0A087X1C5",
+    "CYP2D7",
+    "Cytochrome P450 2D7 (EC 1.14.14.1)",
+    "Cytoplasm;Glycoprotein;Heme;Iron;Membrane;Metal-binding;Mitochondrion;Monooxygenase;Oxidoreductase;Proteomics identification;Reference proteome;Transmembrane;Transmembrane helix",
+    "SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Multi-pass membrane protein {ECO:0000255}. Cytoplasm {ECO:0000305|PubMed:15051713}. Mitochondrion {ECO:0000269|PubMed:18838503}."
+   ]
+  },
+  "34d9564e19_stream": {
+   "header": [
+    "Entry",
+    "Gene Names (primary)",
+    "Protein names",
+    "Keywords",
+    "Subcellular location [CC]"
+   ],
+   "first_row": [
+    "A0A087WPF7",
+    "Auts2",
+    "Autism susceptibility gene 2 protein homolog",
+    "Alternative splicing;Cell projection;Cytoplasm;Cytoskeleton;Nucleus;Phosphoprotein;Reference proteome;Transcription;Transcription regulation",
+    "SUBCELLULAR LOCATION: Nucleus {ECO:0000269|PubMed:19948250, ECO:0000269|PubMed:25519132, ECO:0000269|PubMed:25533347}. Cytoplasm, cytoskeleton {ECO:0000269|PubMed:25533347}. Cell projection, growth cone {ECO:0000269|PubMed:25533347}. Note=Detected both in cytoplasm and nucleus (PubMed:25533347). Colocalizes with RAC1 at actin-rich growth cones (PubMed:25533347). Detected on the promoter region of actively transcribed genes (PubMed:25519132). {ECO:0000269|PubMed:25519132, ECO:0000269|PubMed:25533347}."
+   ]
+  },
+  "9f6e27cbf0_HOM_MouseHumanSequence.rpt": {
+   "header": [
+    "DB Class Key",
+    "Common Organism Name",
+    "NCBI Taxon ID",
+    "Symbol",
+    "EntrezGene ID",
+    "Mouse MGI ID",
+    "HGNC ID",
+    "OMIM Gene ID",
+    "Genetic Location",
+    "Genome Coordinates (mouse: GRCm39 human: GRCh38)",
+    "Nucleotide RefSeq IDs",
+    "Protein RefSeq IDs",
+    "SWISS_PROT IDs"
+   ],
+   "first_row": [
+    "52125027",
+    "mouse, laboratory",
+    "10090",
+    "Aldh1l1",
+    "107747",
+    "MGI:1340024",
+    "",
+    "",
+    "Chr6 40.16 cM",
+    "Chr6:90527751-90576153(+)",
+    "XM_030255052,NM_001356412,NM_027406",
+    "NP_001343341,NP_081682,XP_030110912",
+    "Q8R0Y6"
+   ]
+  },
+  "e8240f7be5_compounds.tsv.gz": {
+   "header": [
+    "id",
+    "name",
+    "status_id",
+    "source",
+    "parent_id",
+    "merge_type",
+    "chebi_accession",
+    "definition",
+    "ascii_name",
+    "stars",
+    "modified_on",
+    "release_date"
+   ],
+   "first_row": [
+    "3",
+    "((R)-3-hydroxybutanoyl)(n-2)",
+    "3",
+    "KEGG COMPOUND",
+    "",
+    "",
+    "CHEBI:3",
+    "",
+    "((R)-3-hydroxybutanoyl)(n-2)",
+    "2",
+    "2026-08-11T15:56:40.459286+0100",
+    ""
+   ]
+  },
+  "f782210ab7_source.tsv.gz": {
+   "header": [
+    "id",
+    "name",
+    "url",
+    "prefix",
+    "description"
+   ],
+   "first_row": [
+    "1",
+    "Agricola",
+    "https://europepmc.org/abstract/AGR/*",
+    "agr",
+    ""
+   ]
+  },
+  "d9bdda5396_database_accession.tsv.gz": {
+   "header": [
+    "id",
+    "compound_id",
+    "accession_number",
+    "type",
+    "status_id",
+    "source_id"
+   ],
+   "first_row": [
+    "9",
+    "3",
+    "C06147",
+    "MANUAL_X_REF",
+    "3",
+    "45"
+   ]
+  },
+  "07075af489_metabolites.tsv": {
+   "header": [
+    "mets",
+    "metsNoComp",
+    "metBiGGID",
+    "metKEGGID",
+    "metHMDBID",
+    "metChEBIID",
+    "metPubChemID",
+    "metLipidMapsID",
+    "metEHMNID",
+    "metHepatoNET1ID",
+    "metRecon3DID",
+    "metMetaNetXID",
+    "metSmiles",
+    "metInChI",
+    "metSeedID",
+    "metHMR2ID",
+    "metRetired"
+   ],
+   "first_row": [
+    "MAM00001c",
+    "MAM00001",
+    "carveol",
+    "C00964",
+    "HMDB0003450",
+    "CHEBI:15389",
+    "",
+    "LMPR0102090005",
+    "",
+    "",
+    "carveol",
+    "MNXM1371224",
+    "C=C(C)[C@@H]1CC=C(C)[C@@H](O)C1",
+    "InChI=1S/C10H16O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9-11H,1,5-6H2,2-3H3/t9-,10+/m1/s1",
+    "cpd00711",
+    "m00001c",
+    "m00001c"
+   ]
+  },
+  "3d46c5ecaf_genes.tsv": {
+   "header": [
+    "genes",
+    "geneENSTID",
+    "geneENSPID",
+    "geneUniProtID",
+    "geneSymbols",
+    "geneEntrezID",
+    "geneNames",
+    "geneAliases",
+    "compartments",
+    "compDataSource"
+   ],
+   "first_row": [
+    "ENSG00000000419",
+    "ENST00000466152;ENST00000371582;ENST00000683048;ENST00000371588;ENST00000494752;ENST00000682366;ENST00000371584;ENST00000684193;ENST00000683466;ENST00000682713;ENST00000681979;ENST00000684708;ENST00000413082;ENST00000682754;ENST00000683010;ENST00000684628",
+    "ENSP00000507119;ENSP00000360638;ENSP00000506986;ENSP00000360644;ENSP00000360640;ENSP00000507404;ENSP00000394921",
+    "O60762",
+    "DPM1",
+    "8813",
+    "dolichyl-phosphate mannosyltransferase subunit 1, catalytic",
+    "CDGIE;MPDS",
+    "Endoplasmic reticulum",
+    "SwissProt"
+   ]
+  },
+  "621c983c3e_metabolites.tsv": {
+   "header": [
+    "mets",
+    "metBiGGID",
+    "metChEBIID",
+    "metEHMNID",
+    "metHMDBID",
+    "metHMR2ID",
+    "metHepatoNET1ID",
+    "metKEGGID",
+    "metLipidMapsID",
+    "metMetaNetXID",
+    "metPubChemID",
+    "metRecon3DID",
+    "metRetired",
+    "metsNoComp"
+   ],
+   "first_row": [
+    "MAM00001c",
+    "carveol",
+    "CHEBI:15389",
+    "",
+    "",
+    "m00001c",
+    "",
+    "C00964",
+    "",
+    "MNXM45735",
+    "",
+    "carveol",
+    "m00001c",
+    "MAM00001"
+   ]
+  },
+  "c42f14310f_9606.tsv": {
+   "header": [
+    "Complex ac",
+    "Recommended name",
+    "Aliases for complex",
+    "Taxonomy identifier",
+    "Identifiers (and stoichiometry) of molecules in complex",
+    "Evidence Code",
+    "Experimental evidence",
+    "Go Annotations",
+    "Cross references",
+    "Description",
+    "Complex properties",
+    "Complex assembly",
+    "Ligand",
+    "Disease",
+    "Agonist",
+    "Antagonist",
+    "Comment",
+    "Source",
+    "Expanded participant list"
+   ],
+   "first_row": [
+    "CPX-1",
+    "SMAD2-SMAD3-SMAD4 complex",
+    "SMAD2/SMAD3/SMAD4 transcription factor complex",
+    "9606",
+    "P84022(1)|Q13485(1)|Q15796(1)",
+    "ECO:0005547(biological system reconstruction evidence based on inference from background scientific knowledge used in manual assertion)",
+    "-",
+    "GO:0071144(heteromeric SMAD protein complex)|GO:0003690(double-stranded DNA binding)|GO:0003700(DNA-binding transcription factor activity)|GO:0006355(regulation of DNA-templated transcription)|GO:0032924(activin receptor signaling pathway)|GO:0007179(transforming growth factor beta receptor signaling pathway)",
+    "reactome:R-HSA-9736938(identity)|reactome:R-HSA-9736929(identity)|pubmed:35359452(see-also)|qsproteome:QS143229(identity)|pubmed:16322555(see-also)|complex portal:CPX-1(complex-primary)|wwpdb:1U7V(subset)",
+    "A transcription factor complex which binds to the promoters of target genes and recruits co-activators and histone acetyltransferases, such as p300, CBP and P300/CBP-associated factor, facilitating transcription. In response to TGF-beta/activin-family protein binding, TGF-beta type II receptors phosphorylate TGF-beta type I receptors (ALK4, 5 and 7) which in turn phosphorylates SMAD2 on two Ser-465 and Ser-467, and SMAD3 on Ser-423 and Ser-425. This enables binding to SMAD4 to form heteromeric SMAD complexes that enter the nucleus to initiate gene transcription. Because of their relatively low DNA-binding affinity, SMAD complexes interact with a wide variety of DNA-binding proteins. Crosstalk with other signalling pathways and interaction with other DNA-binding cofactors define the specific binding patterns of SMADs; in addition, interaction with coactivators/corepressors modulates their transcriptional activity.",
+    "Preferential formation of the regulatory R-Smad/SMAD4 heterotrimer over the R-Smad homotrimer is largely enthalpy driven, contributed by the unique presence of strong electrostatic interactions within the heterotrimeric interfaces. These electrostatic interactions exist only in the heterotrimer due to specific charged residues in the SMAD4 subunit, Asp-493 and Arg-378, mediating complementary electrostatic interactions with the neighbouring R-Smad subunits.",
+    "Heterotrimer",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "psi-mi:\"MI:0469\"(IntAct)",
+    "P84022(1)|Q13485(1)|Q15796(1)"
+   ]
+  },
+  "3a796f84f5_10090.tsv": {
+   "header": [
+    "Complex ac",
+    "Recommended name",
+    "Aliases for complex",
+    "Taxonomy identifier",
+    "Identifiers (and stoichiometry) of molecules in complex",
+    "Evidence Code",
+    "Experimental evidence",
+    "Go Annotations",
+    "Cross references",
+    "Description",
+    "Complex properties",
+    "Complex assembly",
+    "Ligand",
+    "Disease",
+    "Agonist",
+    "Antagonist",
+    "Comment",
+    "Source",
+    "Expanded participant list"
+   ],
+   "first_row": [
+    "CPX-6",
+    "bZIP transcription factor complex, Atf4-Creb1",
+    "Creb1-Atf4 transcription factor complex",
+    "10090",
+    "Q01147(1)|Q06507(1)",
+    "ECO:0000353(physical interaction evidence used in manual assertion)",
+    "intact:EBI-10043076",
+    "GO:0000977(RNA polymerase II transcription regulatory region sequence-specific DNA binding)|GO:0000981(DNA-binding transcription factor activity, RNA polymerase II-specific)|GO:0005634(nucleus)|GO:0006357(regulation of transcription by RNA polymerase II)|GO:0090575(RNA polymerase II transcription regulator complex)",
+    "qsproteome:QS185061(identity)|complex portal:CPX-6(complex-primary)|pubmed:23661758(see-also)|pubmed:28186491(see-also)|pubmed:12871976(see-also)",
+    "Transcription factor complex which binds to a specific DNA site to regulate transcription. This complex binds the cAMP response element (CRE) (consensus: 5'-GTGACGT[AC][AG]-3'). Involved in the ER stress response pathway.",
+    "Dimerization is mediated by the basic leucine-zipper (bZIP) 60-80 amino acid domain, consisting of a highly conserved DNA binding basic region and a more diversified leucine zipper dimerization region. The latter domain adopts an alpha helical structure where leucine, or leucine-like, side chains line up on the same side of the helix and interact with the alpha helix of the leucine zipper of the other family member to enable dimer formation. DNA binding specificity appears to be linked to low-affinity binding sites which guide transcription factors to their cognate target sites. ",
+    "Heterodimer",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "psi-mi:\"MI:0469\"(IntAct)",
+    "Q01147(1)|Q06507(1)"
+   ]
+  },
+  "89191e95fe_names.tsv.gz": {
+   "header": [
+    "id",
+    "compound_id",
+    "name",
+    "type",
+    "status_id",
+    "adapted",
+    "language_code",
+    "ascii_name"
+   ],
+   "first_row": [
+    "8",
+    "3",
+    "((R)-3-Hydroxybutanoyl)(n-2)",
+    "SYNONYM",
+    "3",
+    "false",
+    "en",
+    "((R)-3-Hydroxybutanoyl)(n-2)"
+   ]
+  }
+ },
+ "notes": [
+  "uniprot human: 20431 reviewed rows, 19282 with keywords, 17332 with locations",
+  "uniprot idmap human: id types in first 300k lines {'GI': 44477, 'EMBL': 24651, 'EMBL-CDS': 21399, 'PDB': 21393, 'Ensembl_TRS': 14887, 'Ensembl_PRO': 14886, 'RefSeq': 11030, 'RefSeq_NT': 11030}",
+  "uniprot mouse: 17283 reviewed rows, 16909 with keywords, 15256 with locations",
+  "uniprot idmap mouse: id types in first 300k lines {'GI': 43531, 'EMBL': 27111, 'EMBL-CDS': 25208, 'RefSeq': 12453, 'RefSeq_NT': 12453, 'UniParc': 10285, 'Reactome': 9721, 'Ensembl_TRS': 8430}",
+  "chebi obo ontology: relationship names {'RO:0000087': 59114, 'RO:0018038': 20508, 'RO:0018033': 8779, 'RO:0018034': 8710, 'BFO:0000051': 4121, 'RO:0018039': 2802, 'RO:0018036': 1957, 'RO:0018040': 1862}",
+  "chebi ontology: 218524 compounds with is_a parents, 31616 with roles",
+  "chebi names table: 434154 names for 167834 compounds"
+ ],
+ "counts": {
+  "human/gene": {
+   "entities": 19369,
+   "sets": 20626,
+   "by_source": {
+    "complexportal": 2150,
+    "gem": 124,
+    "go": 14091,
+    "reactome": 2439,
+    "uniprot": 863,
+    "wikipathways": 959
+   },
+   "by_category": {
+    "complex": 2150,
+    "subsystem": 124,
+    "go_mf": 2820,
+    "go_bp": 9735,
+    "go_cc": 1536,
+    "pathway": 3398,
+    "keyword": 629,
+    "location": 234
+   }
+  },
+  "human/protein": {
+   "entities": 19419,
+   "sets": 20672,
+   "by_source": {
+    "complexportal": 2207,
+    "gem": 123,
+    "go": 14126,
+    "reactome": 2391,
+    "uniprot": 866,
+    "wikipathways": 959
+   },
+   "by_category": {
+    "complex": 2207,
+    "subsystem": 123,
+    "go_mf": 2828,
+    "go_bp": 9746,
+    "go_cc": 1552,
+    "pathway": 3350,
+    "keyword": 632,
+    "location": 234
+   }
+  },
+  "human/metabolite": {
+   "entities": 6277,
+   "sets": 4831,
+   "by_source": {
+    "chebi": 2414,
+    "gem": 128,
+    "reactome": 1847,
+    "wikipathways": 442
+   },
+   "by_category": {
+    "chemical_class": 1874,
+    "biological_role": 540,
+    "subsystem": 128,
+    "pathway": 2289
+   }
+  },
+  "mouse/gene": {
+   "entities": 17105,
+   "sets": 18296,
+   "by_source": {
+    "complexportal": 564,
+    "gem": 124,
+    "go": 14959,
+    "reactome": 1721,
+    "uniprot": 718,
+    "wikipathways": 210
+   },
+   "by_category": {
+    "complex": 564,
+    "subsystem": 124,
+    "go_mf": 2830,
+    "go_bp": 10611,
+    "go_cc": 1518,
+    "pathway": 1931,
+    "keyword": 488,
+    "location": 230
+   }
+  },
+  "mouse/protein": {
+   "entities": 16995,
+   "sets": 18580,
+   "by_source": {
+    "complexportal": 606,
+    "gem": 124,
+    "go": 15175,
+    "reactome": 1731,
+    "uniprot": 734,
+    "wikipathways": 210
+   },
+   "by_category": {
+    "complex": 606,
+    "subsystem": 124,
+    "go_mf": 2880,
+    "go_bp": 10744,
+    "go_cc": 1551,
+    "pathway": 1941,
+    "keyword": 501,
+    "location": 233
+   }
+  },
+  "mouse/metabolite": {
+   "entities": 4321,
+   "sets": 3452,
+   "by_source": {
+    "chebi": 2023,
+    "gem": 130,
+    "reactome": 1233,
+    "wikipathways": 66
+   },
+   "by_category": {
+    "chemical_class": 1566,
+    "biological_role": 457,
+    "subsystem": 130,
+    "pathway": 1299
+   }
+  }
+ },
+ "problems": [],
+ "failures": []
+}
