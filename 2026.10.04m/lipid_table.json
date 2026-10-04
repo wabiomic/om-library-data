@@ -1,0 +1,1431 @@
+{
+  "acronyms": {
+    "DMPC": [
+      "PC",
+      [
+        [
+          14,
+          0
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    ],
+    "DOPA": [
+      "PA",
+      [
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "DOPC": [
+      "PC",
+      [
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "DOPE": [
+      "PE",
+      [
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "DOPG": [
+      "PG",
+      [
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "DOPS": [
+      "PS",
+      [
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "DPPC": [
+      "PC",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ]
+    ],
+    "DPPE": [
+      "PE",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ]
+    ],
+    "DPPG": [
+      "PG",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ]
+    ],
+    "DSPC": [
+      "PC",
+      [
+        [
+          18,
+          0
+        ],
+        [
+          18,
+          0
+        ]
+      ]
+    ],
+    "PAPC": [
+      "PC",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          20,
+          4
+        ]
+      ]
+    ],
+    "PLPC": [
+      "PC",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          18,
+          2
+        ]
+      ]
+    ],
+    "POPA": [
+      "PA",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "POPC": [
+      "PC",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "POPE": [
+      "PE",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "POPG": [
+      "PG",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "POPS": [
+      "PS",
+      [
+        [
+          16,
+          0
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ],
+    "SAPC": [
+      "PC",
+      [
+        [
+          18,
+          0
+        ],
+        [
+          20,
+          4
+        ]
+      ]
+    ],
+    "SAPE": [
+      "PE",
+      [
+        [
+          18,
+          0
+        ],
+        [
+          20,
+          4
+        ]
+      ]
+    ],
+    "SOPC": [
+      "PC",
+      [
+        [
+          18,
+          0
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    ]
+  },
+  "aliases": {
+    "dhCer": {
+      "cls": "Cer",
+      "dihydro": true,
+      "syn": [
+        "dhCer",
+        "DCER",
+        "DHCER",
+        "Cer-dh",
+        "Dihydroceramide",
+        "Dihydroceramides",
+        "DhCer",
+        "dihydro-Cer"
+      ]
+    },
+    "dhSM": {
+      "cls": "SM",
+      "dihydro": true,
+      "syn": [
+        "dhSM",
+        "DHSM",
+        "Dihydrosphingomyelin"
+      ]
+    },
+    "dhSPH": {
+      "cls": "SPH",
+      "dihydro": true,
+      "syn": [
+        "Sphinganine",
+        "dhSph",
+        "DHSph",
+        "Sph(d18:0)"
+      ]
+    },
+    "lysoPC_a": {
+      "cls": "LPC",
+      "syn": [
+        "lysoPC a",
+        "LysoPC a"
+      ]
+    },
+    "phytoCer": {
+      "cls": "Cer",
+      "phyto": true,
+      "syn": [
+        "PhytoCer",
+        "Phytoceramide"
+      ]
+    }
+  },
+  "baseSpecies": {
+    "d": 2,
+    "m": 1,
+    "t": 3
+  },
+  "bins": {
+    "chain": [
+      [
+        14,
+        "C\u226414"
+      ],
+      [
+        18,
+        "C15-18"
+      ],
+      [
+        22,
+        "C19-22"
+      ],
+      [
+        999,
+        "C\u226523"
+      ]
+    ]
+  },
+  "classes": {
+    "BMP": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP04",
+      "nAcyl": 2,
+      "name": "Glycerophosphoglycerols",
+      "syn": [
+        "BMP",
+        "LBPA",
+        "Bis(monoacylglycero)phosphate",
+        "Lysobisphosphatidic acid"
+      ]
+    },
+    "C1P": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP02",
+      "nAcyl": 2,
+      "name": "Ceramide phosphates",
+      "syn": [
+        "C1P",
+        "CerP",
+        "Cer-1-P",
+        "Cer1P",
+        "Ceramide 1-phosphate",
+        "Ceramide-1-phosphate"
+      ]
+    },
+    "CAR": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA07",
+      "nAcyl": 1,
+      "name": "Fatty acyl carnitines",
+      "syn": [
+        "CAR",
+        "ACAR",
+        "AcCa",
+        "ACCA",
+        "ACylCar",
+        "AC",
+        "Acylcarnitine",
+        "Acylcarnitines",
+        "Carnitine",
+        "Acyl carnitine"
+      ]
+    },
+    "CDP-DG": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP11",
+      "nAcyl": 2,
+      "name": "CDP-glycerols",
+      "syn": [
+        "CDP-DG",
+        "CDPDG",
+        "CDP-DAG"
+      ]
+    },
+    "CE": {
+      "cat": "ST",
+      "catName": "Sterol lipids",
+      "main": "ST01",
+      "nAcyl": 1,
+      "name": "Sterol esters (cholesteryl esters)",
+      "syn": [
+        "CE",
+        "ChE",
+        "CholE",
+        "CholEster",
+        "Cholesteryl ester",
+        "Cholesteryl esters",
+        "Cholesterol ester",
+        "Cholesterol esters",
+        "CholesterylEster"
+      ]
+    },
+    "CL": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP12",
+      "nAcyl": 4,
+      "name": "Glycerophosphoglycerophosphoglycerols",
+      "syn": [
+        "CL",
+        "Cardiolipin",
+        "Cardiolipins",
+        "DPG",
+        "Diphosphatidylglycerol"
+      ]
+    },
+    "CPA": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP25",
+      "nAcyl": 1,
+      "name": "Cyclic phosphatidic acids",
+      "syn": [
+        "CPA",
+        "Cyclic phosphatidic acid"
+      ]
+    },
+    "Cer": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP02",
+      "nAcyl": 2,
+      "name": "Ceramides",
+      "syn": [
+        "Cer",
+        "CER",
+        "Ceramide",
+        "Ceramides",
+        "N-acylsphingosine"
+      ]
+    },
+    "Chol": {
+      "cat": "ST",
+      "catName": "Sterol lipids",
+      "main": "ST01",
+      "nAcyl": 0,
+      "name": "Sterols",
+      "syn": [
+        "Chol",
+        "Cholesterol",
+        "FC",
+        "Free cholesterol"
+      ]
+    },
+    "CoA": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA07",
+      "nAcyl": 1,
+      "name": "Fatty acyl CoAs",
+      "syn": [
+        "CoA",
+        "ACoA",
+        "Acyl-CoA",
+        "AcylCoA",
+        "Acyl CoA",
+        "FA-CoA"
+      ]
+    },
+    "CoQ": {
+      "cat": "PR",
+      "catName": "Prenol lipids",
+      "main": "PR02",
+      "nAcyl": 0,
+      "name": "Quinones and hydroquinones",
+      "syn": [
+        "CoQ",
+        "Ubiquinone",
+        "Coenzyme Q",
+        "CoQ10",
+        "Q10",
+        "UQ",
+        "Co Q10",
+        "Co Q9",
+        "Co Q8",
+        "Co Q7",
+        "CoQ9",
+        "CoQ8",
+        "CoQ7",
+        "CoQ6"
+      ]
+    },
+    "DG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "etherOk": true,
+      "main": "GL02",
+      "nAcyl": 2,
+      "name": "Diradylglycerols",
+      "syn": [
+        "DG",
+        "DAG",
+        "Diacylglycerol",
+        "Diglyceride",
+        "Diglycerides",
+        "Diradylglycerol"
+      ]
+    },
+    "DGCC": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": null,
+      "nAcyl": 2,
+      "name": "Diacylglyceryl carboxyhydroxymethylcholines",
+      "syn": [
+        "DGCC"
+      ]
+    },
+    "DGDG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": "GL05",
+      "nAcyl": 2,
+      "name": "Glycosyldiacylglycerols",
+      "syn": [
+        "DGDG",
+        "Digalactosyldiacylglycerol"
+      ]
+    },
+    "DGTA": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": null,
+      "nAcyl": 2,
+      "name": "Diacylglyceryl hydroxymethyl-trimethyl-beta-alanines",
+      "syn": [
+        "DGTA"
+      ]
+    },
+    "DGTS": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": null,
+      "nAcyl": 2,
+      "name": "Diacylglyceryl trimethylhomoserines",
+      "syn": [
+        "DGTS",
+        "Diacylglyceryltrimethylhomoserine"
+      ]
+    },
+    "DLCL": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP12",
+      "nAcyl": 2,
+      "name": "Glycerophosphoglycerophosphoglycerols",
+      "syn": [
+        "DLCL",
+        "Dilysocardiolipin"
+      ]
+    },
+    "FA": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA01",
+      "nAcyl": 1,
+      "name": "Fatty acids and conjugates",
+      "syn": [
+        "FA",
+        "FFA",
+        "NEFA",
+        "Fatty acid",
+        "Fatty acids",
+        "Free fatty acid",
+        "Free fatty acids",
+        "Non-esterified fatty acid"
+      ]
+    },
+    "FAHFA": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA07",
+      "nAcyl": 2,
+      "name": "Fatty acid esters of hydroxy fatty acids",
+      "syn": [
+        "FAHFA"
+      ]
+    },
+    "FOH": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA05",
+      "nAcyl": 1,
+      "name": "Fatty alcohols",
+      "syn": [
+        "FOH",
+        "Fatty alcohol"
+      ]
+    },
+    "GD1": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP06",
+      "nAcyl": 2,
+      "name": "Acidic glycosphingolipids",
+      "syn": [
+        "GD1"
+      ]
+    },
+    "GD3": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP06",
+      "nAcyl": 2,
+      "name": "Acidic glycosphingolipids",
+      "syn": [
+        "GD3"
+      ]
+    },
+    "GM1": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP06",
+      "nAcyl": 2,
+      "name": "Acidic glycosphingolipids",
+      "syn": [
+        "GM1"
+      ]
+    },
+    "GM2": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP06",
+      "nAcyl": 2,
+      "name": "Acidic glycosphingolipids",
+      "syn": [
+        "GM2"
+      ]
+    },
+    "GM3": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP06",
+      "nAcyl": 2,
+      "name": "Acidic glycosphingolipids",
+      "syn": [
+        "GM3"
+      ]
+    },
+    "Hex2Cer": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP05",
+      "nAcyl": 2,
+      "name": "Neutral glycosphingolipids",
+      "syn": [
+        "Hex2Cer",
+        "LCER",
+        "CerG2",
+        "LacCer",
+        "Lactosylceramide",
+        "Dihexosylceramide",
+        "DihexosylCer"
+      ]
+    },
+    "Hex3Cer": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP05",
+      "nAcyl": 2,
+      "name": "Neutral glycosphingolipids",
+      "syn": [
+        "Hex3Cer",
+        "CerG3",
+        "Gb3",
+        "Trihexosylceramide",
+        "TrihexosylCer"
+      ]
+    },
+    "HexCer": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP05",
+      "nAcyl": 2,
+      "name": "Neutral glycosphingolipids",
+      "syn": [
+        "HexCer",
+        "Hex1Cer",
+        "HCER",
+        "CerG1",
+        "GlcCer",
+        "GalCer",
+        "Glucosylceramide",
+        "Galactosylceramide",
+        "Hexosylceramide",
+        "Hexosylceramides",
+        "Cer-Hex",
+        "MonohexosylCer",
+        "MonohexosylCeramide",
+        "CER[NS]"
+      ]
+    },
+    "IPC": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP03",
+      "nAcyl": 2,
+      "name": "Phosphosphingolipids",
+      "syn": [
+        "IPC",
+        "PI-Cer",
+        "PICer",
+        "Inositol phosphorylceramide",
+        "MIPC",
+        "M(IP)2C"
+      ]
+    },
+    "LPA": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "lyso": true,
+      "main": "GP10",
+      "nAcyl": 1,
+      "name": "Glycerophosphates",
+      "parent": "PA",
+      "syn": [
+        "LPA",
+        "LysoPA",
+        "Lyso-PA",
+        "Lyso PA",
+        "lysophosphatidic acid",
+        "lysophosphatidic acids",
+        "1-acyl-PA"
+      ]
+    },
+    "LPC": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "lyso": true,
+      "main": "GP01",
+      "nAcyl": 1,
+      "name": "Glycerophosphocholines",
+      "parent": "PC",
+      "syn": [
+        "LPC",
+        "LysoPC",
+        "Lyso-PC",
+        "Lyso PC",
+        "lysophosphatidylcholine",
+        "lysophosphatidylcholines",
+        "1-acyl-PC"
+      ]
+    },
+    "LPE": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "lyso": true,
+      "main": "GP02",
+      "nAcyl": 1,
+      "name": "Glycerophosphoethanolamines",
+      "parent": "PE",
+      "syn": [
+        "LPE",
+        "LysoPE",
+        "Lyso-PE",
+        "Lyso PE",
+        "lysophosphatidylethanolamine",
+        "lysophosphatidylethanolamines",
+        "1-acyl-PE"
+      ]
+    },
+    "LPG": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "lyso": true,
+      "main": "GP04",
+      "nAcyl": 1,
+      "name": "Glycerophosphoglycerols",
+      "parent": "PG",
+      "syn": [
+        "LPG",
+        "LysoPG",
+        "Lyso-PG",
+        "Lyso PG",
+        "lysophosphatidylglycerol",
+        "lysophosphatidylglycerols",
+        "1-acyl-PG"
+      ]
+    },
+    "LPI": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "lyso": true,
+      "main": "GP06",
+      "nAcyl": 1,
+      "name": "Glycerophosphoinositols",
+      "parent": "PI",
+      "syn": [
+        "LPI",
+        "LysoPI",
+        "Lyso-PI",
+        "Lyso PI",
+        "lysophosphatidylinositol",
+        "lysophosphatidylinositols",
+        "1-acyl-PI"
+      ]
+    },
+    "LPS": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "lyso": true,
+      "main": "GP03",
+      "nAcyl": 1,
+      "name": "Glycerophosphoserines",
+      "parent": "PS",
+      "syn": [
+        "LPS",
+        "LysoPS",
+        "Lyso-PS",
+        "Lyso PS",
+        "lysophosphatidylserine",
+        "lysophosphatidylserines",
+        "1-acyl-PS"
+      ]
+    },
+    "LSQMG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": "GL04",
+      "nAcyl": 1,
+      "name": "Glycosylmonoradylglycerols",
+      "syn": [
+        "LSQMG",
+        "SQMG"
+      ]
+    },
+    "MG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "etherOk": true,
+      "main": "GL01",
+      "nAcyl": 1,
+      "name": "Monoradylglycerols",
+      "syn": [
+        "MG",
+        "MAG",
+        "MAG",
+        "Monoacylglycerol",
+        "Monoglyceride",
+        "Monoglycerides",
+        "Monoradylglycerol"
+      ]
+    },
+    "MGDG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": "GL05",
+      "nAcyl": 2,
+      "name": "Glycosyldiacylglycerols",
+      "syn": [
+        "MGDG",
+        "Monogalactosyldiacylglycerol"
+      ]
+    },
+    "MGTS": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": null,
+      "nAcyl": 1,
+      "name": "Monoacylglyceryl trimethylhomoserines",
+      "syn": [
+        "MGTS"
+      ]
+    },
+    "MLCL": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP12",
+      "nAcyl": 3,
+      "name": "Glycerophosphoglycerophosphoglycerols",
+      "syn": [
+        "MLCL",
+        "Monolysocardiolipin",
+        "Monolyso-CL"
+      ]
+    },
+    "NAE": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA08",
+      "nAcyl": 1,
+      "name": "N-acylethanolamines",
+      "syn": [
+        "NAE",
+        "NAEA",
+        "N-acylethanolamine",
+        "N-acyl ethanolamine"
+      ]
+    },
+    "NAGly": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA08",
+      "nAcyl": 1,
+      "name": "N-acyl amides",
+      "syn": [
+        "NAGly",
+        "N-acylglycine"
+      ]
+    },
+    "NAPE": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP02",
+      "nAcyl": 3,
+      "name": "Glycerophosphoethanolamines",
+      "syn": [
+        "NAPE",
+        "N-acyl-PE",
+        "N-acylphosphatidylethanolamine"
+      ]
+    },
+    "PA": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "main": "GP10",
+      "nAcyl": 2,
+      "name": "Glycerophosphates",
+      "syn": [
+        "PA",
+        "GPA",
+        "PtdOH",
+        "Phosphatidic acid",
+        "Phosphatidate"
+      ]
+    },
+    "PC": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "main": "GP01",
+      "nAcyl": 2,
+      "name": "Glycerophosphocholines",
+      "syn": [
+        "PC",
+        "GPCho",
+        "PtdCho",
+        "PCho",
+        "Phosphatidylcholine",
+        "Phosphatidylcholines",
+        "Lecithin",
+        "1,2-diacyl-sn-glycero-3-phosphocholine"
+      ]
+    },
+    "PE": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "main": "GP02",
+      "nAcyl": 2,
+      "name": "Glycerophosphoethanolamines",
+      "syn": [
+        "PE",
+        "GPEtn",
+        "PtdEtn",
+        "PEtn",
+        "Phosphatidylethanolamine",
+        "Phosphatidylethanolamines",
+        "Cephalin"
+      ]
+    },
+    "PE-Cer": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP03",
+      "nAcyl": 2,
+      "name": "Phosphosphingolipids",
+      "syn": [
+        "PE-Cer",
+        "PECer",
+        "Ceramide phosphoethanolamine",
+        "CerPE"
+      ]
+    },
+    "PE-NMe": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP02",
+      "nAcyl": 2,
+      "name": "Glycerophosphoethanolamines",
+      "syn": [
+        "PE-NMe",
+        "PE-N-Me",
+        "PE-NMe1",
+        "MMPE",
+        "PE(NMe)"
+      ]
+    },
+    "PE-NMe2": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP02",
+      "nAcyl": 2,
+      "name": "Glycerophosphoethanolamines",
+      "syn": [
+        "PE-NMe2",
+        "DMPE-Me2",
+        "PE-N-Me2"
+      ]
+    },
+    "PEtOH": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP13",
+      "nAcyl": 2,
+      "name": "Glycerophosphoethanols",
+      "syn": [
+        "PEtOH",
+        "PEth",
+        "Phosphatidylethanol"
+      ]
+    },
+    "PG": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "main": "GP04",
+      "nAcyl": 2,
+      "name": "Glycerophosphoglycerols",
+      "syn": [
+        "PG",
+        "GPGro",
+        "PtdGro",
+        "Phosphatidylglycerol",
+        "Phosphatidylglycerols"
+      ]
+    },
+    "PGP": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP05",
+      "nAcyl": 2,
+      "name": "Glycerophosphoglycerophosphates",
+      "syn": [
+        "PGP",
+        "Phosphatidylglycerophosphate"
+      ]
+    },
+    "PI": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "main": "GP06",
+      "nAcyl": 2,
+      "name": "Glycerophosphoinositols",
+      "syn": [
+        "PI",
+        "GPIns",
+        "PtdIns",
+        "Phosphatidylinositol",
+        "Phosphatidylinositols"
+      ]
+    },
+    "PIP": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP07",
+      "nAcyl": 2,
+      "name": "Glycerophosphoinositol monophosphates",
+      "syn": [
+        "PIP",
+        "PtdInsP",
+        "PI(4)P",
+        "PIP1",
+        "Phosphatidylinositol phosphate"
+      ]
+    },
+    "PIP2": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP08",
+      "nAcyl": 2,
+      "name": "Glycerophosphoinositol bisphosphates",
+      "syn": [
+        "PIP2",
+        "PtdInsP2",
+        "PI(4,5)P2",
+        "PIP(2)",
+        "Phosphatidylinositol bisphosphate"
+      ]
+    },
+    "PIP3": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP09",
+      "nAcyl": 2,
+      "name": "Glycerophosphoinositol trisphosphates",
+      "syn": [
+        "PIP3",
+        "PtdInsP3",
+        "PI(3,4,5)P3"
+      ]
+    },
+    "PS": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "etherOk": true,
+      "main": "GP03",
+      "nAcyl": 2,
+      "name": "Glycerophosphoserines",
+      "syn": [
+        "PS",
+        "GPSer",
+        "PtdSer",
+        "Phosphatidylserine",
+        "Phosphatidylserines"
+      ]
+    },
+    "PT": {
+      "cat": "GP",
+      "catName": "Glycerophospholipids",
+      "main": "GP24",
+      "nAcyl": 2,
+      "name": "Glycerophosphothreonines",
+      "syn": [
+        "PT",
+        "Phosphatidylthreonine"
+      ]
+    },
+    "S1P": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP01",
+      "nAcyl": 1,
+      "name": "Sphingoid base 1-phosphates",
+      "syn": [
+        "S1P",
+        "Sphingosine-1-phosphate",
+        "Sphingosine 1-phosphate",
+        "SPH-P",
+        "SphP",
+        "SPBP",
+        "SPHP",
+        "Sphingosine-phosphate",
+        "Sphinganine-phosphate",
+        "Sphingoid base phosphate"
+      ]
+    },
+    "SHexCer": {
+      "bare": false,
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP06",
+      "nAcyl": 2,
+      "name": "Acidic glycosphingolipids",
+      "syn": [
+        "SHexCer",
+        "Sulfatide",
+        "Sulfatides",
+        "SulfoHexCer",
+        "Sulfogalactosylceramide"
+      ]
+    },
+    "SM": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP03",
+      "nAcyl": 2,
+      "name": "Phosphosphingolipids",
+      "syn": [
+        "SM",
+        "Sphingomyelin",
+        "Sphingomyelins",
+        "SPM"
+      ]
+    },
+    "SPH": {
+      "base": true,
+      "cat": "SP",
+      "catName": "Sphingolipids",
+      "main": "SP01",
+      "nAcyl": 1,
+      "name": "Sphingoid bases",
+      "syn": [
+        "SPH",
+        "Sph",
+        "Sphingosine",
+        "Sphingoid base",
+        "SPB"
+      ]
+    },
+    "SQDG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "main": "GL05",
+      "nAcyl": 2,
+      "name": "Glycosyldiacylglycerols",
+      "syn": [
+        "SQDG",
+        "Sulfoquinovosyldiacylglycerol"
+      ]
+    },
+    "ST": {
+      "bare": false,
+      "cat": "ST",
+      "catName": "Sterol lipids",
+      "main": "ST01",
+      "nAcyl": 0,
+      "name": "Sterols",
+      "syn": [
+        "ST",
+        "Sterol"
+      ]
+    },
+    "TG": {
+      "cat": "GL",
+      "catName": "Glycerolipids",
+      "etherOk": true,
+      "main": "GL03",
+      "nAcyl": 3,
+      "name": "Triradylglycerols",
+      "syn": [
+        "TG",
+        "TAG",
+        "TGL",
+        "Triacylglycerol",
+        "Triacylglycerols",
+        "Triglyceride",
+        "Triglycerides",
+        "Triradylglycerol"
+      ]
+    },
+    "WE": {
+      "cat": "FA",
+      "catName": "Fatty acyls",
+      "main": "FA07",
+      "nAcyl": 2,
+      "name": "Wax monoesters",
+      "syn": [
+        "WE",
+        "Wax ester",
+        "Wax esters",
+        "WAX"
+      ]
+    }
+  },
+  "trivialFA": [
+    [
+      "palmitole",
+      16,
+      1
+    ],
+    [
+      "palmit",
+      16,
+      0
+    ],
+    [
+      "laur",
+      12,
+      0
+    ],
+    [
+      "myrist",
+      14,
+      0
+    ],
+    [
+      "margar",
+      17,
+      0
+    ],
+    [
+      "pentadecan",
+      15,
+      0
+    ],
+    [
+      "heptadecan",
+      17,
+      0
+    ],
+    [
+      "stear",
+      18,
+      0
+    ],
+    [
+      "linolen",
+      18,
+      3
+    ],
+    [
+      "linole",
+      18,
+      2
+    ],
+    [
+      "vaccen",
+      18,
+      1
+    ],
+    [
+      "elaid",
+      18,
+      1
+    ],
+    [
+      "ole",
+      18,
+      1
+    ],
+    [
+      "arachidon",
+      20,
+      4
+    ],
+    [
+      "arachid",
+      20,
+      0
+    ],
+    [
+      "eicosapentaen",
+      20,
+      5
+    ],
+    [
+      "dihomo-gamma-linolen",
+      20,
+      3
+    ],
+    [
+      "docosahexaen",
+      22,
+      6
+    ],
+    [
+      "docosapentaen",
+      22,
+      5
+    ],
+    [
+      "behen",
+      22,
+      0
+    ],
+    [
+      "erucic",
+      22,
+      1
+    ],
+    [
+      "eruc",
+      22,
+      1
+    ],
+    [
+      "lignocer",
+      24,
+      0
+    ],
+    [
+      "nervon",
+      24,
+      1
+    ],
+    [
+      "caprylic",
+      8,
+      0
+    ],
+    [
+      "capryl",
+      8,
+      0
+    ],
+    [
+      "capric",
+      10,
+      0
+    ],
+    [
+      "capr",
+      10,
+      0
+    ],
+    [
+      "hexacos",
+      26,
+      0
+    ]
+  ],
+  "version": 1
+}
