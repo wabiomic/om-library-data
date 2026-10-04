@@ -1,0 +1,198 @@
+{
+  "classes": {
+    "ACAR": [
+      "FA",
+      "Fatty acyls",
+      "FA07",
+      "Fatty esters"
+    ],
+    "ACCA": [
+      "FA",
+      "Fatty acyls",
+      "FA07",
+      "Fatty esters"
+    ],
+    "CAR": [
+      "FA",
+      "Fatty acyls",
+      "FA07",
+      "Fatty esters"
+    ],
+    "CE": [
+      "ST",
+      "Sterol lipids",
+      "ST01",
+      "Sterols"
+    ],
+    "CER": [
+      "SP",
+      "Sphingolipids",
+      "SP02",
+      "Ceramides"
+    ],
+    "CHOL": [
+      "ST",
+      "Sterol lipids",
+      "ST01",
+      "Sterols"
+    ],
+    "CL": [
+      "GP",
+      "Glycerophospholipids",
+      "GP12",
+      "Glycerophosphoglycerophosphoglycerols"
+    ],
+    "DAG": [
+      "GL",
+      "Glycerolipids",
+      "GL02",
+      "Diradylglycerols"
+    ],
+    "DG": [
+      "GL",
+      "Glycerolipids",
+      "GL02",
+      "Diradylglycerols"
+    ],
+    "FA": [
+      "FA",
+      "Fatty acyls",
+      "FA01",
+      "Fatty acids and conjugates"
+    ],
+    "GALCER": [
+      "SP",
+      "Sphingolipids",
+      "SP05",
+      "Neutral glycosphingolipids"
+    ],
+    "GLCCER": [
+      "SP",
+      "Sphingolipids",
+      "SP05",
+      "Neutral glycosphingolipids"
+    ],
+    "HEX1CER": [
+      "SP",
+      "Sphingolipids",
+      "SP05",
+      "Neutral glycosphingolipids"
+    ],
+    "HEXCER": [
+      "SP",
+      "Sphingolipids",
+      "SP05",
+      "Neutral glycosphingolipids"
+    ],
+    "LACCER": [
+      "SP",
+      "Sphingolipids",
+      "SP05",
+      "Neutral glycosphingolipids"
+    ],
+    "MAG": [
+      "GL",
+      "Glycerolipids",
+      "GL01",
+      "Monoradylglycerols"
+    ],
+    "MG": [
+      "GL",
+      "Glycerolipids",
+      "GL01",
+      "Monoradylglycerols"
+    ],
+    "PA": [
+      "GP",
+      "Glycerophospholipids",
+      "GP10",
+      "Glycerophosphates"
+    ],
+    "PC": [
+      "GP",
+      "Glycerophospholipids",
+      "GP01",
+      "Glycerophosphocholines"
+    ],
+    "PE": [
+      "GP",
+      "Glycerophospholipids",
+      "GP02",
+      "Glycerophosphoethanolamines"
+    ],
+    "PG": [
+      "GP",
+      "Glycerophospholipids",
+      "GP04",
+      "Glycerophosphoglycerols"
+    ],
+    "PI": [
+      "GP",
+      "Glycerophospholipids",
+      "GP06",
+      "Glycerophosphoinositols"
+    ],
+    "PS": [
+      "GP",
+      "Glycerophospholipids",
+      "GP03",
+      "Glycerophosphoserines"
+    ],
+    "SM": [
+      "SP",
+      "Sphingolipids",
+      "SP03",
+      "Phosphosphingolipids"
+    ],
+    "SPH": [
+      "SP",
+      "Sphingolipids",
+      "SP01",
+      "Sphingoid bases"
+    ],
+    "TAG": [
+      "GL",
+      "Glycerolipids",
+      "GL03",
+      "Triradylglycerols"
+    ],
+    "TG": [
+      "GL",
+      "Glycerolipids",
+      "GL03",
+      "Triradylglycerols"
+    ]
+  },
+  "lyso": {
+    "LCL": "CL",
+    "LPA": "PA",
+    "LPC": "PC",
+    "LPE": "PE",
+    "LPG": "PG",
+    "LPI": "PI",
+    "LPS": "PS",
+    "MLCL": "CL"
+  },
+  "n_chains": {
+    "CER": 2,
+    "CL": 4,
+    "DAG": 2,
+    "DG": 2,
+    "GALCER": 2,
+    "GLCCER": 2,
+    "HEX1CER": 2,
+    "HEXCER": 2,
+    "LACCER": 2,
+    "MAG": 1,
+    "MG": 1,
+    "PA": 2,
+    "PC": 2,
+    "PE": 2,
+    "PG": 2,
+    "PI": 2,
+    "PS": 2,
+    "SM": 2,
+    "TAG": 3,
+    "TG": 3
+  }
+}
