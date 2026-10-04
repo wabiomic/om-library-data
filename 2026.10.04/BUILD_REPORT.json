@@ -391,6 +391,28 @@
     "psi-mi:\"MI:0469\"(IntAct)",
     "Q01147(1)|Q06507(1)"
    ]
+  },
+  "89191e95fe_names.tsv.gz": {
+   "header": [
+    "id",
+    "compound_id",
+    "name",
+    "type",
+    "status_id",
+    "adapted",
+    "language_code",
+    "ascii_name"
+   ],
+   "first_row": [
+    "8",
+    "3",
+    "((R)-3-Hydroxybutanoyl)(n-2)",
+    "SYNONYM",
+    "3",
+    "false",
+    "en",
+    "((R)-3-Hydroxybutanoyl)(n-2)"
+   ]
   }
  },
  "notes": [
@@ -399,7 +421,8 @@
   "uniprot mouse: 17283 reviewed rows, 16909 with keywords, 15256 with locations",
   "uniprot idmap mouse: id types in first 300k lines {'GI': 43531, 'EMBL': 27111, 'EMBL-CDS': 25208, 'RefSeq': 12453, 'RefSeq_NT': 12453, 'UniParc': 10285, 'Reactome': 9721, 'Ensembl_TRS': 8430}",
   "chebi obo ontology: relationship names {'RO:0000087': 59114, 'RO:0018038': 20508, 'RO:0018033': 8779, 'RO:0018034': 8710, 'BFO:0000051': 4121, 'RO:0018039': 2802, 'RO:0018036': 1957, 'RO:0018040': 1862}",
-  "chebi ontology: 218524 compounds with is_a parents, 31616 with roles"
+  "chebi ontology: 218524 compounds with is_a parents, 31616 with roles",
+  "chebi names table: 434154 names for 167834 compounds"
  ],
  "counts": {
   "human/gene": {

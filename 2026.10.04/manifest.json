@@ -1,6 +1,6 @@
 {
-  "built": "2026-10-04T03:12:07+00:00",
-  "content_hash": "da1ba96876b54bd4",
+  "built": "2026-10-04T03:26:17+00:00",
+  "content_hash": "41c9bf02d8bf9e10",
   "counts": {
     "human/gene": {
       "by_category": {
@@ -140,9 +140,9 @@
       "sha256": "5e6292f8561490820ada9bf8aaea4c9989c89d3fb3528fb76f4349aa80d10f68"
     },
     "human/metabolite/xref.json.gz": {
-      "bytes": 76470,
+      "bytes": 637090,
       "path": "dist/2026.10.04/human/metabolite/xref.json.gz",
-      "sha256": "bdfa80225371faa35a5687692b0923e4e48d378d557a42177c75212829ff024d"
+      "sha256": "21c075ad5308645e57825b3b088bd375f1ce3f03553aa2bf795ddaa075e9a5cb"
     },
     "human/protein/sets.json.gz": {
       "bytes": 3295909,
@@ -175,9 +175,9 @@
       "sha256": "bd7c631699ed68fffe578826c1f5fc1e4c61a389fd275ae9e7fe1985149e8e9f"
     },
     "mouse/metabolite/xref.json.gz": {
-      "bytes": 55429,
+      "bytes": 467882,
       "path": "dist/2026.10.04/mouse/metabolite/xref.json.gz",
-      "sha256": "98912dc67e746c072b26a0bc51dc576047949fb8646dafc2a393c34730acd6ef"
+      "sha256": "59bc34e2ce4da8d9930a7be527716cf24fdc1376eb85505deb71762e59aef247"
     },
     "mouse/protein/sets.json.gz": {
       "bytes": 3173936,
@@ -229,6 +229,12 @@
           "retrieved": "2026-10-04",
           "sha256": "7f55284d6a549dbb24c6cd0bc79f1b62bd074d6ce49dd2553f72c88d5ddec846",
           "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/compounds.tsv.gz"
+        },
+        "names": {
+          "bytes": 9500349,
+          "retrieved": "2026-10-04",
+          "sha256": "320076af2aac73c894432ff6de39476ad97e8414429ae270b02076e60411e471",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/names.tsv.gz"
         },
         "ontology": {
           "bytes": 7852321,
