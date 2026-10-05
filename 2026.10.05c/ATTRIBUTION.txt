@@ -1,0 +1,10 @@
+ChEBI: CC BY 4.0. ChEBI, EMBL-EBI (ebi.ac.uk/chebi), CC BY 4.0.
+Complex Portal: CC0 1.0. Complex Portal, EMBL-EBI.
+Human-GEM and Mouse-GEM: CC BY 4.0. Human-GEM and Mouse-GEM, SysBioChalmers (github.com/SysBioChalmers), CC BY 4.0.
+Gene Ontology: CC BY 4.0. Gene Ontology Consortium (geneontology.org), CC BY 4.0.
+LIPID MAPS Structure Database: CC BY 4.0. LIPID MAPS Structure Database (lipidmaps.org), CC BY 4.0. Sud M et al., Nucleic Acids Res 2007; 35:D527.
+MGI homology: Free for any use (MGI terms). Mouse Genome Informatics (informatics.jax.org).
+NCBI Gene: Public domain (NCBI). NCBI Gene, National Library of Medicine.
+Reactome: CC0 1.0. Reactome (reactome.org), data released under CC0.
+UniProtKB: CC BY 4.0. UniProt Consortium (uniprot.org), CC BY 4.0.
+WikiPathways: CC0 1.0. WikiPathways (wikipathways.org), released under CC0.
