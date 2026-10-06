@@ -1,0 +1,720 @@
+{
+  "built": "2026-10-06T04:27:50+00:00",
+  "content_hash": "d42e0da059cc6ae7",
+  "counts": {
+    "human/enzyme": {
+      "genes": 2462,
+      "metabolites": 2081,
+      "reactions": 5502
+    },
+    "human/gene": {
+      "by_category": {
+        "complex": 2150,
+        "enzyme_class": 159,
+        "go_bp": 9735,
+        "go_cc": 1536,
+        "go_mf": 2820,
+        "keyword": 629,
+        "location": 234,
+        "mirna_target_curated": 163,
+        "pathway": 3398,
+        "subsystem": 124
+      },
+      "by_source": {
+        "complexportal": 2150,
+        "gem": 283,
+        "go": 14091,
+        "goa_rna": 163,
+        "reactome": 2439,
+        "uniprot": 863,
+        "wikipathways": 959
+      },
+      "entities": 19375,
+      "sets": 20948
+    },
+    "human/lipid": {
+      "by_category": {
+        "lm_category": 8,
+        "lm_main_class": 86,
+        "lm_sub_class": 300,
+        "pathway": 357,
+        "subsystem": 79
+      },
+      "by_source": {
+        "gem": 79,
+        "lipidmaps": 394,
+        "reactome": 215,
+        "wikipathways": 142
+      },
+      "entities": 21410,
+      "sets": 830
+    },
+    "human/metabolite": {
+      "by_category": {
+        "biological_role": 540,
+        "chemical_class": 1874,
+        "pathway": 2289,
+        "subsystem": 128
+      },
+      "by_source": {
+        "chebi": 2414,
+        "gem": 128,
+        "reactome": 1847,
+        "wikipathways": 442
+      },
+      "entities": 6277,
+      "sets": 4831
+    },
+    "human/ncrna": {
+      "curated_pairs": 1970,
+      "entities": 61038,
+      "families": 2179,
+      "mature": 2783,
+      "seed_families": 1985,
+      "sets": 3080,
+      "sponge_lnc": 3277
+    },
+    "human/protein": {
+      "by_category": {
+        "complex": 2207,
+        "enzyme_class": 159,
+        "go_bp": 9746,
+        "go_cc": 1552,
+        "go_mf": 2828,
+        "keyword": 632,
+        "location": 234,
+        "pathway": 3350,
+        "subsystem": 123
+      },
+      "by_source": {
+        "complexportal": 2207,
+        "gem": 282,
+        "go": 14126,
+        "reactome": 2391,
+        "uniprot": 866,
+        "wikipathways": 959
+      },
+      "entities": 19419,
+      "sets": 20831
+    },
+    "mouse/enzyme": {
+      "genes": 2444,
+      "metabolites": 1753,
+      "reactions": 5510
+    },
+    "mouse/gene": {
+      "by_category": {
+        "complex": 564,
+        "enzyme_class": 160,
+        "go_bp": 10611,
+        "go_cc": 1518,
+        "go_mf": 2830,
+        "keyword": 488,
+        "location": 230,
+        "pathway": 1931,
+        "subsystem": 124
+      },
+      "by_source": {
+        "complexportal": 564,
+        "gem": 284,
+        "go": 14959,
+        "reactome": 1721,
+        "uniprot": 718,
+        "wikipathways": 210
+      },
+      "entities": 17123,
+      "sets": 18456
+    },
+    "mouse/lipid": {
+      "by_category": {
+        "lm_category": 8,
+        "lm_main_class": 86,
+        "lm_sub_class": 300,
+        "pathway": 196,
+        "subsystem": 78
+      },
+      "by_source": {
+        "gem": 78,
+        "lipidmaps": 394,
+        "reactome": 163,
+        "wikipathways": 33
+      },
+      "entities": 21410,
+      "sets": 668
+    },
+    "mouse/metabolite": {
+      "by_category": {
+        "biological_role": 457,
+        "chemical_class": 1566,
+        "pathway": 1299,
+        "subsystem": 130
+      },
+      "by_source": {
+        "chebi": 2023,
+        "gem": 130,
+        "reactome": 1233,
+        "wikipathways": 66
+      },
+      "entities": 4321,
+      "sets": 3452
+    },
+    "mouse/protein": {
+      "by_category": {
+        "complex": 606,
+        "enzyme_class": 159,
+        "go_bp": 10744,
+        "go_cc": 1551,
+        "go_mf": 2880,
+        "keyword": 501,
+        "location": 233,
+        "pathway": 1941,
+        "subsystem": 124
+      },
+      "by_source": {
+        "complexportal": 606,
+        "gem": 283,
+        "go": 15175,
+        "reactome": 1731,
+        "uniprot": 734,
+        "wikipathways": 210
+      },
+      "entities": 16995,
+      "sets": 18739
+    }
+  },
+  "files": {
+    "human/enzyme/reactions.json.gz": {
+      "bytes": 130117,
+      "path": "dist/2026.10.05e/human/enzyme/reactions.json.gz",
+      "sha256": "265af64e8d6f69b3614917818ad804a4a406e7307267eed9158fa5eae3b4b562"
+    },
+    "human/gene/sets.json.gz": {
+      "bytes": 2854533,
+      "path": "dist/2026.10.05e/human/gene/sets.json.gz",
+      "sha256": "cb135361b8e7db1bf440bdcc61e2de3fa24f8f721cb16633bd4dafd073b8c098"
+    },
+    "human/gene/signed_topology.json.gz": {
+      "bytes": 183937,
+      "path": "dist/2026.10.05e/human/gene/signed_topology.json.gz",
+      "sha256": "82eb41839f0c6ae5aefd64fdb3601332c1c894d406348413a2e649517292615d"
+    },
+    "human/gene/xref.json.gz": {
+      "bytes": 666415,
+      "path": "dist/2026.10.05e/human/gene/xref.json.gz",
+      "sha256": "29dbce4bb76433b512575ea28df19da70d624537cdec03aaa80cd5f765d95c00"
+    },
+    "human/lipid/sets.json.gz": {
+      "bytes": 369477,
+      "path": "dist/2026.10.05e/human/lipid/sets.json.gz",
+      "sha256": "01c48e15ec83b75992eb4c50e76e06a30f8bb39d4a7b49ab11b9818e64f61350"
+    },
+    "human/lipid/xref.json.gz": {
+      "bytes": 2062810,
+      "path": "dist/2026.10.05e/human/lipid/xref.json.gz",
+      "sha256": "da169a1e1729769264d11193704f22eb3c09e9a5fe1a8e63b79f2ddb203571a0"
+    },
+    "human/metabolite/sets.json.gz": {
+      "bytes": 343300,
+      "path": "dist/2026.10.05e/human/metabolite/sets.json.gz",
+      "sha256": "96999c01e8f069e43bec10c9220cd057af7a90ed7df1d06aefbecfa6405d2253"
+    },
+    "human/metabolite/topology.json.gz": {
+      "bytes": 166234,
+      "path": "dist/2026.10.05e/human/metabolite/topology.json.gz",
+      "sha256": "9a5a94faa76d83848dc5b50f6464b9bbccf194a83f02bd98f5866130baec5813"
+    },
+    "human/metabolite/xref.json.gz": {
+      "bytes": 607058,
+      "path": "dist/2026.10.05e/human/metabolite/xref.json.gz",
+      "sha256": "f0005c04016cee815159e6f9c10b468c63c48c9386b390596defe5c0bb737922"
+    },
+    "human/ncrna/entities.json.gz": {
+      "bytes": 1682221,
+      "path": "dist/2026.10.05e/human/ncrna/entities.json.gz",
+      "sha256": "4717a9d6a21bd383d2514dbe1f1b3fd04210cd320adc4f98e55a454e243cb49c"
+    },
+    "human/ncrna/links.json.gz": {
+      "bytes": 513075,
+      "path": "dist/2026.10.05e/human/ncrna/links.json.gz",
+      "sha256": "0619c404c6b08c90ed601183afa33dcbb05f2ff9af82041783d829e9d3a9c749"
+    },
+    "human/ncrna/seed_high.json.gz": {
+      "bytes": 2245068,
+      "path": "dist/2026.10.05e/human/ncrna/seed_high.json.gz",
+      "sha256": "2b58f3b8d60a34575c3c46c400b5bc320c7c94802d3b22d12657e20c87d55ae9"
+    },
+    "human/ncrna/seed_medium.json.gz": {
+      "bytes": 3082841,
+      "path": "dist/2026.10.05e/human/ncrna/seed_medium.json.gz",
+      "sha256": "3b66b54f62ca174d026321b1b6c4284db3cecffa3778dbbd410f5f1330220ca7"
+    },
+    "human/ncrna/sets.json.gz": {
+      "bytes": 591614,
+      "path": "dist/2026.10.05e/human/ncrna/sets.json.gz",
+      "sha256": "c1df54d37669ea0e15f27fd092ede288e9bf3528823d97821130221fe1f874ed"
+    },
+    "human/ncrna/targets.json.gz": {
+      "bytes": 56399,
+      "path": "dist/2026.10.05e/human/ncrna/targets.json.gz",
+      "sha256": "e451f00917669b79b09f43354d449638e60fbc553f5c7461e0406eae0c993059"
+    },
+    "human/ncrna/xref.json.gz": {
+      "bytes": 1013583,
+      "path": "dist/2026.10.05e/human/ncrna/xref.json.gz",
+      "sha256": "48df9872a363bd44dfedbaeb25e8b364e1d1497ba3fe64171e96911789475842"
+    },
+    "human/protein/sets.json.gz": {
+      "bytes": 3311082,
+      "path": "dist/2026.10.05e/human/protein/sets.json.gz",
+      "sha256": "929bd68b622514393ade0bda13c151337a70c502c16c34e6c133710bcae1e499"
+    },
+    "human/protein/signed_topology.json.gz": {
+      "bytes": 179356,
+      "path": "dist/2026.10.05e/human/protein/signed_topology.json.gz",
+      "sha256": "ff543aeaef7af5332b9452a7f6f2e495460f5a4beec8dafe863f8eab262896f9"
+    },
+    "human/protein/xref.json.gz": {
+      "bytes": 219863,
+      "path": "dist/2026.10.05e/human/protein/xref.json.gz",
+      "sha256": "e5100b9a0a2a804c7a751b317a9ddc73f727b230df1b775b7a9896c6bd2b6980"
+    },
+    "lipid_classes.json": {
+      "bytes": 3154,
+      "path": "dist/2026.10.05e/lipid_classes.json",
+      "sha256": "94c33ad6680f83fcd07439d629d0f28ab73988823159edc44e1d0c0a4cc980e9"
+    },
+    "lipid_table.json": {
+      "bytes": 26295,
+      "path": "dist/2026.10.05e/lipid_table.json",
+      "sha256": "e413e39b7a0f1a9b57133274540672273918154fb5b95b474a71a38b1813b7ef"
+    },
+    "mouse/enzyme/reactions.json.gz": {
+      "bytes": 105346,
+      "path": "dist/2026.10.05e/mouse/enzyme/reactions.json.gz",
+      "sha256": "209f150e648b299757478153c425200b0f616b9a1feb7a1bf22cc18bd7fd6e11"
+    },
+    "mouse/gene/sets.json.gz": {
+      "bytes": 2757674,
+      "path": "dist/2026.10.05e/mouse/gene/sets.json.gz",
+      "sha256": "a18b714f8f100757b5bba10ea0dcb0917e0accb9a437e44a975ce54da2093120"
+    },
+    "mouse/gene/signed_topology.json.gz": {
+      "bytes": 44317,
+      "path": "dist/2026.10.05e/mouse/gene/signed_topology.json.gz",
+      "sha256": "83169457574c010c6fc6a96b9e275ef3ca3a97ad934fa0b898f7f45611e66064"
+    },
+    "mouse/gene/xref.json.gz": {
+      "bytes": 625888,
+      "path": "dist/2026.10.05e/mouse/gene/xref.json.gz",
+      "sha256": "2c5d17bdc830ada674400f05080a3c0dd7e7493e2c52b3b64478f07e3d874191"
+    },
+    "mouse/lipid/sets.json.gz": {
+      "bytes": 363878,
+      "path": "dist/2026.10.05e/mouse/lipid/sets.json.gz",
+      "sha256": "20c2e1dfc5b6d0e2d401d3eff4ba6534dc281e245ab71de550580404ed77aff7"
+    },
+    "mouse/lipid/xref.json.gz": {
+      "bytes": 2062810,
+      "path": "dist/2026.10.05e/mouse/lipid/xref.json.gz",
+      "sha256": "da169a1e1729769264d11193704f22eb3c09e9a5fe1a8e63b79f2ddb203571a0"
+    },
+    "mouse/metabolite/sets.json.gz": {
+      "bytes": 238119,
+      "path": "dist/2026.10.05e/mouse/metabolite/sets.json.gz",
+      "sha256": "8d37e63e9e2235d01981aec428b711a9b6232b62030d509c977109ee163817b5"
+    },
+    "mouse/metabolite/topology.json.gz": {
+      "bytes": 120664,
+      "path": "dist/2026.10.05e/mouse/metabolite/topology.json.gz",
+      "sha256": "7bfd6d51e7afc4cb6cfa93233b143e1a5c133ef85ef3385913aee3708a213ae0"
+    },
+    "mouse/metabolite/xref.json.gz": {
+      "bytes": 443077,
+      "path": "dist/2026.10.05e/mouse/metabolite/xref.json.gz",
+      "sha256": "c513c97d67b3ecfc23b46b4c87a1892debf3e5834d7d7847856ff2d8028449f1"
+    },
+    "mouse/protein/sets.json.gz": {
+      "bytes": 3188128,
+      "path": "dist/2026.10.05e/mouse/protein/sets.json.gz",
+      "sha256": "159021c3af8dba9bdba0342b8d0235a2fc3dcc862d416fe75933bb435e3a9c1a"
+    },
+    "mouse/protein/signed_topology.json.gz": {
+      "bytes": 40975,
+      "path": "dist/2026.10.05e/mouse/protein/signed_topology.json.gz",
+      "sha256": "f19fdcb1800bdae49faa8022028ffb467a5f0057bd626a66c3aad23c253e157c"
+    },
+    "mouse/protein/xref.json.gz": {
+      "bytes": 191770,
+      "path": "dist/2026.10.05e/mouse/protein/xref.json.gz",
+      "sha256": "4f96889fc77b8cecdfcdc991f8357abed90499f1045a0158d761c9ad2a81c04b"
+    },
+    "ontology/go.json.gz": {
+      "bytes": 639224,
+      "path": "dist/2026.10.05e/ontology/go.json.gz",
+      "sha256": "963732b3c81bc36f63f2ae3f05beb5778b62232e742597516e550ec403736300"
+    },
+    "orthologs.json.gz": {
+      "bytes": 129891,
+      "path": "dist/2026.10.05e/orthologs.json.gz",
+      "sha256": "95c2e55559b6f67b177772840a8a095052c6cfeae10f9d890dd80496e09b7aaa"
+    }
+  },
+  "layers": [
+    "gene",
+    "protein",
+    "metabolite",
+    "lipid"
+  ],
+  "library": "om-open-library",
+  "notes": [
+    "Cross-reference identifiers (HMDB, KEGG) are mapping aliases only; no HMDB or KEGG pathway or compound content is included.",
+    "Mouse sets from Reactome and WikiPathways are largely orthology-projected from human curation."
+  ],
+  "sources": {
+    "chebi": {
+      "attribution": "ChEBI, EMBL-EBI (ebi.ac.uk/chebi), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "ChEBI",
+      "provenance": {
+        "accessions": {
+          "bytes": 3948630,
+          "retrieved": "2026-10-06",
+          "sha256": "49911e979f00664cde2ef8771f00fb4a20ddcf788ca4231b4a1ef07c9dde2dc1",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/database_accession.tsv.gz"
+        },
+        "compounds": {
+          "bytes": 6985591,
+          "retrieved": "2026-10-06",
+          "sha256": "7f55284d6a549dbb24c6cd0bc79f1b62bd074d6ce49dd2553f72c88d5ddec846",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/compounds.tsv.gz"
+        },
+        "names": {
+          "bytes": 9500349,
+          "retrieved": "2026-10-06",
+          "sha256": "320076af2aac73c894432ff6de39476ad97e8414429ae270b02076e60411e471",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/names.tsv.gz"
+        },
+        "ontology": {
+          "bytes": 7852321,
+          "retrieved": "2026-10-06",
+          "sha256": "db393b48ffca2a0a4ba0b7a3c60283c19888440b555e8a8f6b7a7d86ba879087",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi_lite.obo.gz"
+        },
+        "source_table": {
+          "bytes": 3723,
+          "retrieved": "2026-10-06",
+          "sha256": "c4b41aed6bd8a704ff03f3c6b90316f294b3ee4b6b8c3bdd74b5ce32f752edd5",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/source.tsv.gz"
+        }
+      }
+    },
+    "complexportal": {
+      "attribution": "Complex Portal, EMBL-EBI.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "Complex Portal",
+      "provenance": {
+        "human": {
+          "bytes": 5292514,
+          "retrieved": "2026-10-06",
+          "sha256": "29d3aeec7ede35e8686de3cf73620b5871c3e68d7ca069385153a9b28e80012a",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/9606.tsv"
+        },
+        "mouse": {
+          "bytes": 1471187,
+          "retrieved": "2026-10-06",
+          "sha256": "ba66aed64325da4508f7c0c976831550c6aff015ab76eddb1ec9c96375027684",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/10090.tsv"
+        }
+      }
+    },
+    "gem": {
+      "attribution": "Human-GEM and Mouse-GEM, SysBioChalmers (github.com/SysBioChalmers), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "Human-GEM and Mouse-GEM",
+      "provenance": {
+        "human_genes": {
+          "bytes": 1132097,
+          "retrieved": "2026-10-06",
+          "sha256": "7b37ce037f4f1e2a01d92547145ffadccd792ec4d84a82632c84ed39fa2fb3de",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/genes.tsv"
+        },
+        "human_mets": {
+          "bytes": 2495993,
+          "retrieved": "2026-10-06",
+          "sha256": "c31439f997a6d4a68ba6d00971243a600d1c9523b736d876b285a8f8a4c9ab34",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/metabolites.tsv"
+        },
+        "human_yml": {
+          "bytes": 7882196,
+          "retrieved": "2026-10-06",
+          "sha256": "3b944902a44f5f0e9dfcf23f8b9b4a54891bfb85ae711f8540e72ffbfcfa1f9a",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/Human-GEM.yml"
+        },
+        "mouse_mets": {
+          "bytes": 910653,
+          "retrieved": "2026-10-06",
+          "sha256": "ff51b3ae9491d46eeb4d5778d4217132eaeee76fffe7d5113f23d5f3300814a0",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Mouse-GEM/main/model/metabolites.tsv"
+        },
+        "mouse_yml": {
+          "bytes": 8001269,
+          "retrieved": "2026-10-06",
+          "sha256": "7afeeeab30aafbd102250b5a242645bd1d4b23068326f479224cc8cbb99fc25d",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Mouse-GEM/main/model/Mouse-GEM.yml"
+        }
+      }
+    },
+    "gencode": {
+      "attribution": "GENCODE (gencodegenes.org), open access, Frankish et al. NAR. Ensembl, CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "Open access (GENCODE project, EMBL-EBI); Ensembl data CC BY 4.0",
+      "name": "GENCODE",
+      "provenance": {
+        "gtf_human": {
+          "bytes": 124527720,
+          "retrieved": "2026-10-06",
+          "sha256": "83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/latest_release/gencode.v50.annotation.gtf.gz"
+        },
+        "tx_human": {
+          "bytes": 183554921,
+          "retrieved": "2026-10-06",
+          "sha256": "5a320f524d73b5793518eb19b118829033713443d0f42af20a67bb31cc06cf56",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/latest_release/gencode.v50.transcripts.fa.gz"
+        }
+      }
+    },
+    "go": {
+      "attribution": "Gene Ontology Consortium (geneontology.org), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "Gene Ontology",
+      "provenance": {
+        "goa_human": {
+          "bytes": 11020779,
+          "retrieved": "2026-10-06",
+          "sha256": "92504b0208fc37d1b652beaab883298c169b0be342888b91924975a49778cfdb",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/goa_human.gaf.gz"
+        },
+        "goa_mouse": {
+          "bytes": 9741819,
+          "retrieved": "2026-10-06",
+          "sha256": "ea4b424447f6000a163c5a6742ebb326a02feeb0bdb64382f83a2159deb06e01",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/GO/goa/MOUSE/goa_mouse.gaf.gz"
+        },
+        "obo": {
+          "bytes": 32227785,
+          "retrieved": "2026-10-06",
+          "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+          "url": "https://purl.obolibrary.org/obo/go/go-basic.obo"
+        }
+      }
+    },
+    "goa_rna": {
+      "attribution": "Gene Ontology Consortium and EMBL-EBI GOA (RNA annotations incl. BHF-UCL miRNA curation), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "GO annotations of RNAs (GOA, RNAcentral)",
+      "provenance": {
+        "gaf_human": {
+          "bytes": 545075,
+          "retrieved": "2026-10-06",
+          "sha256": "7572bb3b79bf9474ab665256466e56064668f4f69b151ca60eeb8e602ae5fbce",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/goa_human_rna.gaf.gz"
+        }
+      }
+    },
+    "hgnc": {
+      "attribution": "HGNC (genenames.org), released under CC0.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "HGNC (HUGO Gene Nomenclature Committee)",
+      "provenance": {
+        "complete_set": {
+          "bytes": 16963116,
+          "retrieved": "2026-10-06",
+          "sha256": "2b4224ea847df2fc6982f5b2a52804c5d92fbb8810b134afb636f6029452dc03",
+          "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt"
+        }
+      }
+    },
+    "lipidmaps": {
+      "attribution": "LIPID MAPS Structure Database (lipidmaps.org), CC BY 4.0. Sud M et al., Nucleic Acids Res 2007; 35:D527.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "LIPID MAPS Structure Database",
+      "provenance": {
+        "lmsd_sdf": {
+          "bytes": 21921603,
+          "retrieved": "2026-10-06",
+          "sha256": "065644fb30b4c7c54acf62d3fdc856d24760a7ddd722687d63cb5ba93f02f908",
+          "url": "https://www.lipidmaps.org/files/?file=LMSD&ext=sdf.zip"
+        }
+      }
+    },
+    "mgi": {
+      "attribution": "Mouse Genome Informatics (informatics.jax.org).",
+      "commercial_ok": true,
+      "license": "Free for any use (MGI terms)",
+      "name": "MGI homology",
+      "provenance": {
+        "homology": {
+          "bytes": 15112222,
+          "retrieved": "2026-10-06",
+          "sha256": "b8220b7689f11066c3d82e0f24c23ba3c7a30ad26a0f24ab639357aebc09582d",
+          "url": "https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt"
+        }
+      }
+    },
+    "mirbase": {
+      "attribution": "miRBase (mirbase.org), in the public domain. Cite Kozomara et al., NAR 2019.",
+      "commercial_ok": true,
+      "license": "Public domain",
+      "name": "miRBase",
+      "provenance": {
+        "gff_human": {
+          "bytes": 545505,
+          "retrieved": "2026-10-06",
+          "sha256": "45b2aa4f8306dc6b86831f652acb166567efe9e59c599d1b6f009f15d3424d07",
+          "url": "https://mirbase.org/download/hsa.gff3"
+        },
+        "mature": {
+          "bytes": 6127225,
+          "retrieved": "2026-10-06",
+          "sha256": "52d69eeb3c23c5ed0f66c8c9f24e1ad2cd94cc34e72e4fc376c0dd438d2779ff",
+          "url": "https://mirbase.org/download/mature.fa"
+        }
+      }
+    },
+    "ncbi_gene": {
+      "attribution": "NCBI Gene, National Library of Medicine.",
+      "commercial_ok": true,
+      "license": "Public domain (NCBI)",
+      "name": "NCBI Gene",
+      "provenance": {
+        "human": {
+          "bytes": 5191996,
+          "retrieved": "2026-10-06",
+          "sha256": "cdeb1bfc6c43e6d375ccc40ee56d0a08e7befff60dbc63b364e2b1bb825e3727",
+          "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz"
+        },
+        "mouse": {
+          "bytes": 3932776,
+          "retrieved": "2026-10-06",
+          "sha256": "8adaa6d67b32165dfcd38fc55786cb168605453b661c050fb895100eb88b7062",
+          "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Mus_musculus.gene_info.gz"
+        }
+      }
+    },
+    "reactome": {
+      "attribution": "Reactome (reactome.org), data released under CC0.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "Reactome",
+      "provenance": {
+        "chebi": {
+          "bytes": 37553966,
+          "retrieved": "2026-10-06",
+          "sha256": "ce9e6a27e72eea162b210ea200b7ec4bf678af82efdbb75fb83cb60a6668cb60",
+          "url": "https://reactome.org/download/current/ChEBI2Reactome_All_Levels.txt"
+        },
+        "ncbi": {
+          "bytes": 98024930,
+          "retrieved": "2026-10-06",
+          "sha256": "53bbe42b357655e341630898547af8d23badab592e6050c34d4317fbffc04ce4",
+          "url": "https://reactome.org/download/current/NCBI2Reactome_All_Levels.txt"
+        },
+        "pathways": {
+          "bytes": 1592393,
+          "retrieved": "2026-10-06",
+          "sha256": "f6d7a2bf89b5bcfe0250a0bc7f51bff94641447911712b8ff129f5b55e52df3a",
+          "url": "https://reactome.org/download/current/ReactomePathways.txt"
+        },
+        "relations": {
+          "bytes": 634259,
+          "retrieved": "2026-10-06",
+          "sha256": "fd49a624d80c14eb37ae57a02e141d574d5ede3f60022bb99edbd909448a3f1e",
+          "url": "https://reactome.org/download/current/ReactomePathwaysRelation.txt"
+        },
+        "uniprot": {
+          "bytes": 117823518,
+          "retrieved": "2026-10-06",
+          "sha256": "d2347cb04d1432f170ee0319283bd6314282909341488e9c33dc85aef663c68a",
+          "url": "https://reactome.org/download/current/UniProt2Reactome_All_Levels.txt"
+        }
+      }
+    },
+    "uniprot": {
+      "attribution": "UniProt Consortium (uniprot.org), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "UniProtKB",
+      "provenance": {
+        "idmap_human": {
+          "bytes": 38464542,
+          "retrieved": "2026-10-06",
+          "sha256": "5fb356e81b07a938ac4d8e8a4b5e0faa89001bcff2aef59422ff30eaa8e72996",
+          "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz"
+        },
+        "idmap_mouse": {
+          "bytes": 15536610,
+          "retrieved": "2026-10-06",
+          "sha256": "c9cb0e15fb417b550ecd7151e3eed9f42eecb1e334cb35d174fca90fd292a2ea",
+          "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/MOUSE_10090_idmapping.dat.gz"
+        },
+        "reviewed_human": {
+          "bytes": 2038073,
+          "retrieved": "2026-10-06",
+          "sha256": "a947d6f02ba9f400ba03db26240a770951678c550ccd9184e9e9263cd577311c",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cgene_primary%2Cprotein_name%2Ckeyword%2Ccc_subcellular_location&query=%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29"
+        },
+        "reviewed_mouse": {
+          "bytes": 1641392,
+          "retrieved": "2026-10-06",
+          "sha256": "e395d568129fa9a8b36456a2f8ca3f6077c732b22c12ad6b395cde229835afa3",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cgene_primary%2Cprotein_name%2Ckeyword%2Ccc_subcellular_location&query=%28organism_id%3A10090%29+AND+%28reviewed%3Atrue%29"
+        }
+      }
+    },
+    "wikipathways": {
+      "attribution": "WikiPathways (wikipathways.org), released under CC0.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "WikiPathways",
+      "provenance": {
+        "gmt_human": {
+          "bytes": 342229,
+          "retrieved": "2026-10-06",
+          "sha256": "2ef750dda56e831c04600080df96df3ef91f51665e0ad6f294945010e7747b0d",
+          "url": "https://data.wikipathways.org/current/gmt/wikipathways-20260910-gmt-Homo_sapiens.gmt"
+        },
+        "gmt_mouse": {
+          "bytes": 93819,
+          "retrieved": "2026-10-06",
+          "sha256": "8d6d68026801848e45f669ec1270290d7c0629bafe4c563236f8988f79666d06",
+          "url": "https://data.wikipathways.org/current/gmt/wikipathways-20260910-gmt-Mus_musculus.gmt"
+        },
+        "gpml_human": {
+          "bytes": 11271085,
+          "retrieved": "2026-10-06",
+          "sha256": "9d21d3e78407216013b98d0e1db38d8de1824f72a40b21744d4f224d931e4b36",
+          "url": "https://data.wikipathways.org/current/gpml/wikipathways-20260910-gpml-Homo_sapiens.zip"
+        },
+        "gpml_mouse": {
+          "bytes": 1948936,
+          "retrieved": "2026-10-06",
+          "sha256": "5fb80e2ff8f81631525894c27b88c70ca2473e948d4e71584e38c106cb5b0aad",
+          "url": "https://data.wikipathways.org/current/gpml/wikipathways-20260910-gpml-Mus_musculus.zip"
+        }
+      }
+    }
+  },
+  "species": {
+    "human": 9606,
+    "mouse": 10090
+  },
+  "version": "2026.10.05e"
+}
