@@ -1,0 +1,56 @@
+{
+  "_comment": "Om-curated annotation flags attached to taxa. They say a taxon is on a published list. They are not evidence that a sample carries resistance or disease: the presence or abundance of a taxon never implies resistance. Taxa may be genus, species, family or order scientific names; a flag on a clade applies to everything below it.",
+  "flags": [
+    {
+      "id": "who_bpp_2024_critical",
+      "label": "WHO bacterial priority pathogen 2024, critical",
+      "note": "The list names resistant phenotypes (carbapenem-resistant Acinetobacter baumannii, third-generation cephalosporin-resistant and carbapenem-resistant Enterobacterales, rifampicin-resistant Mycobacterium tuberculosis). Taxonomy alone cannot show resistance.",
+      "source": "WHO Bacterial Priority Pathogens List 2024",
+      "taxa": [
+        "Acinetobacter baumannii",
+        "Enterobacterales",
+        "Mycobacterium tuberculosis"
+      ]
+    },
+    {
+      "id": "who_bpp_2024_high",
+      "label": "WHO bacterial priority pathogen 2024, high",
+      "note": "Listed for specific resistant phenotypes (for example vancomycin-resistant Enterococcus faecium, methicillin-resistant Staphylococcus aureus). Taxonomy alone cannot show resistance.",
+      "source": "WHO Bacterial Priority Pathogens List 2024",
+      "taxa": [
+        "Salmonella",
+        "Shigella",
+        "Enterococcus faecium",
+        "Pseudomonas aeruginosa",
+        "Neisseria gonorrhoeae",
+        "Staphylococcus aureus"
+      ]
+    },
+    {
+      "id": "who_bpp_2024_medium",
+      "label": "WHO bacterial priority pathogen 2024, medium",
+      "note": "Listed for specific resistant phenotypes. Taxonomy alone cannot show resistance.",
+      "source": "WHO Bacterial Priority Pathogens List 2024",
+      "taxa": [
+        "Streptococcus pyogenes",
+        "Streptococcus pneumoniae",
+        "Haemophilus influenzae",
+        "Streptococcus agalactiae"
+      ]
+    },
+    {
+      "id": "eskape",
+      "label": "ESKAPE group",
+      "note": "Group of nosocomial pathogens that escape common antibiotics. Presence in a gut or skin profile is not a clinical finding.",
+      "source": "Rice 2008, J Infect Dis 197:1079",
+      "taxa": [
+        "Enterococcus faecium",
+        "Staphylococcus aureus",
+        "Klebsiella pneumoniae",
+        "Acinetobacter baumannii",
+        "Pseudomonas aeruginosa",
+        "Enterobacter"
+      ]
+    }
+  ]
+}
