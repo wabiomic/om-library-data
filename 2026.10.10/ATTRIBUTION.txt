@@ -1,0 +1,25 @@
+AMRFinderPlus reference gene catalog: Public domain (NCBI). AMRFinderPlus, National Center for Biotechnology Information (Feldgarden et al. 2021, Sci Rep 11:12728).
+Antibiotic Resistance Ontology (CARD ontologies): CC BY 4.0 (ontology only). Antibiotic Resistance Ontology, CARD (card.mcmaster.ca), Alcock et al., CC BY 4.0. Only the ontology is used; CARD sequences, models and prevalence data are not.
+BugSigDB: CC BY 4.0. BugSigDB (bugsigdb.org), Geistlinger et al. 2023, Nat Biotechnol, doi:10.1038/s41587-023-01872-y, CC BY 4.0.
+ChEBI: CC BY 4.0. ChEBI, EMBL-EBI (ebi.ac.uk/chebi), CC BY 4.0.
+Complex Portal: CC0 1.0. Complex Portal, EMBL-EBI.
+Human-GEM and Mouse-GEM: CC BY 4.0. Human-GEM and Mouse-GEM, SysBioChalmers (github.com/SysBioChalmers), CC BY 4.0.
+GENCODE: Open access (GENCODE project, EMBL-EBI); Ensembl data CC BY 4.0. GENCODE (gencodegenes.org), open access, Frankish et al. NAR. Ensembl, CC BY 4.0.
+Gene Ontology: CC BY 4.0. Gene Ontology Consortium (geneontology.org), CC BY 4.0.
+GO annotations of RNAs (GOA, RNAcentral): CC BY 4.0. Gene Ontology Consortium and EMBL-EBI GOA (RNA annotations incl. BHF-UCL miRNA curation), CC BY 4.0.
+HGNC (HUGO Gene Nomenclature Committee): CC0 1.0. HGNC (genenames.org), released under CC0.
+LIPID MAPS Structure Database: CC BY 4.0. LIPID MAPS Structure Database (lipidmaps.org), CC BY 4.0. Sud M et al., Nucleic Acids Res 2007; 35:D527.
+MetaNetX / MNXref: CC BY 4.0 (upstream licenses may apply). MetaNetX (metanetx.org), Moretti et al. 2021, Nucleic Acids Res 49:D570, CC BY 4.0. Used only for identifier mappings to ChEBI in allowed namespaces.
+MGI homology: Free for any use (MGI terms). Mouse Genome Informatics (informatics.jax.org).
+MIBiG: CC BY 4.0. MIBiG (mibig.secondarymetabolites.org), Zdouc et al. 2025, Nucleic Acids Res, CC BY 4.0.
+miRBase: Public domain. miRBase (mirbase.org), in the public domain. Cite Kozomara et al., NAR 2019.
+MSigDB (allowlisted collections): CC BY 4.0 (Broad Institute MSigDB terms, allowlisted collections only). Molecular Signatures Database (MSigDB), Broad Institute, UC San Diego and MIT, CC BY 4.0. Subramanian et al. 2005 PNAS; Liberzon et al. 2011 Bioinformatics; Liberzon et al. 2015 Cell Systems. Only collections on Om's allowlist are used; KEGG, BioCarta and ShareAlike collections are never read.
+NCBI Gene: Public domain (NCBI). NCBI Gene, National Library of Medicine.
+NCBI Taxonomy: Public domain (NCBI). NCBI Taxonomy, National Library of Medicine (ncbi.nlm.nih.gov/taxonomy).
+Om microbe curation: Om-authored (OmVitalis). Om-curated taxon label mappings and annotation flags (OmVitalis). Flags cite the WHO Bacterial Priority Pathogens List 2024 and Rice 2008.
+Reactome: CC0 1.0. Reactome (reactome.org), data released under CC0.
+Rhea: CC BY 4.0. Rhea, the reaction knowledgebase (rhea-db.org), SIB Swiss Institute of Bioinformatics, CC BY 4.0. Bansal et al., Nucleic Acids Research. Used for the curated direction of reactions (which form of each reaction its cross-referenced databases were mapped to) and the ChEBI protonation mapping, as identifiers and form assignments only.
+SIGNOR 4.0: CC BY 4.0. SIGNOR, the SIGnaling Network Open Resource, University of Rome Tor Vergata (signor.uniroma2.it), CC BY 4.0. Lo Surdo et al., Nucleic Acids Research.
+SILVA taxonomy: CC BY 4.0. SILVA (arb-silva.de), Quast et al. 2013, Nucleic Acids Res 41:D590, CC BY 4.0. Used for a coverage audit only; no SILVA names are copied into the library.
+UniProtKB: CC BY 4.0. UniProt Consortium (uniprot.org), CC BY 4.0.
+WikiPathways: CC0 1.0. WikiPathways (wikipathways.org), released under CC0.

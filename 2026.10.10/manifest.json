@@ -1,0 +1,2523 @@
+{
+  "built": "2026-10-10T17:42:32+00:00",
+  "content_hash": "d99ff6b5686ce826",
+  "counts": {
+    "chebi": {
+      "classes": 7443,
+      "entities": 63262,
+      "families": 7673,
+      "id_coverage": {
+        "cas": 0.286,
+        "hmdb": 0.08,
+        "inchikey": 0.7262,
+        "kegg": 0.1776,
+        "lipidmaps": 0.0511,
+        "pubchem": 0.0002
+      },
+      "xref": {
+        "cas": 18317,
+        "hmdb": 10144,
+        "inchikey": 45942,
+        "kegg": 12591,
+        "lipidmaps": 3245,
+        "name": 253621,
+        "name_loose": 31227,
+        "pubchem": 15
+      }
+    },
+    "direction": {
+      "evidence_bidirectional": 1612,
+      "evidence_irreversible": 7551,
+      "human": {
+        "bidirectional_after": 5483,
+        "gem_reactions_with_rhea_or_mnx_id": 8504,
+        "inferred_directed": 99,
+        "model_bidirectional": 5714,
+        "model_fixed": 7163,
+        "prior_applied": true,
+        "prior_validation": {
+          "auroc": 0.8185,
+          "brier": 0.1148,
+          "called": 4317,
+          "irreversible_share": 0.811,
+          "masters_with_evidence": 6752,
+          "n": 6752,
+          "precision_at_pmin": 0.9166,
+          "recall_at_pmin": 0.7226
+        },
+        "reactions": 12877,
+        "rhea_bidirectional": 170,
+        "rhea_directed": 132,
+        "rhea_directed_flipped": 73,
+        "rhea_validation": {
+          "agree": 1098,
+          "agreement": 0.9743,
+          "applied": true,
+          "compared": 1127,
+          "disagree": 29,
+          "model_fixed_but_rhea_bidirectional": 168
+        },
+        "rule_validation": {
+          "decarboxylase": {
+            "accuracy": 0.9778,
+            "applied": true,
+            "n": 45
+          },
+          "hydrolase": {
+            "accuracy": 0.992,
+            "applied": true,
+            "n": 996
+          },
+          "kinase": {
+            "accuracy": 0.9542,
+            "applied": true,
+            "n": 153
+          },
+          "ligase": {
+            "accuracy": 1.0,
+            "applied": true,
+            "n": 294
+          },
+          "oxygenase": {
+            "accuracy": 0.991,
+            "applied": true,
+            "n": 669
+          }
+        },
+        "tiers": {
+          "0": 5313,
+          "1": 7163,
+          "2": 132,
+          "3": 99,
+          "4": 170
+        }
+      },
+      "masters_with_evidence": 9163,
+      "mouse": {
+        "bidirectional_after": 5758,
+        "gem_reactions_with_rhea_or_mnx_id": 7075,
+        "inferred_directed": 101,
+        "model_bidirectional": 5978,
+        "model_fixed": 7009,
+        "prior_applied": true,
+        "prior_validation": {
+          "auroc": 0.8185,
+          "brier": 0.1148,
+          "called": 4317,
+          "irreversible_share": 0.811,
+          "masters_with_evidence": 6752,
+          "n": 6752,
+          "precision_at_pmin": 0.9166,
+          "recall_at_pmin": 0.7226
+        },
+        "reactions": 12987,
+        "rhea_bidirectional": 170,
+        "rhea_directed": 119,
+        "rhea_directed_flipped": 67,
+        "rhea_validation": {
+          "agree": 1036,
+          "agreement": 0.9719,
+          "applied": true,
+          "compared": 1066,
+          "disagree": 30,
+          "model_fixed_but_rhea_bidirectional": 165
+        },
+        "rule_validation": {
+          "decarboxylase": {
+            "accuracy": 0.9767,
+            "applied": true,
+            "n": 43
+          },
+          "hydrolase": {
+            "accuracy": 0.9911,
+            "applied": true,
+            "n": 1011
+          },
+          "kinase": {
+            "accuracy": 0.9485,
+            "applied": true,
+            "n": 136
+          },
+          "ligase": {
+            "accuracy": 1.0,
+            "applied": true,
+            "n": 292
+          },
+          "oxygenase": {
+            "accuracy": 0.9905,
+            "applied": true,
+            "n": 634
+          }
+        },
+        "tiers": {
+          "0": 5588,
+          "1": 7009,
+          "2": 119,
+          "3": 101,
+          "4": 170
+        }
+      },
+      "rhea_masters": 18611
+    },
+    "human/enzyme": {
+      "genes": 2462,
+      "metabolites": 2081,
+      "reactions": 5502
+    },
+    "human/gene": {
+      "by_category": {
+        "complex": 2150,
+        "enzyme_class": 159,
+        "go_bp": 9735,
+        "go_cc": 1536,
+        "go_mf": 2820,
+        "keyword": 629,
+        "location": 234,
+        "mirna_target_curated": 181,
+        "msigdb_cancer": 1006,
+        "msigdb_celltype": 866,
+        "msigdb_cgp": 3555,
+        "msigdb_hallmark": 50,
+        "msigdb_immune": 4872,
+        "msigdb_oncogenic": 189,
+        "msigdb_positional": 302,
+        "pathway": 3398,
+        "signor_kinase": 276,
+        "signor_phosphatase": 59,
+        "signor_reg_down": 192,
+        "signor_reg_up": 574,
+        "signor_tf_down": 84,
+        "signor_tf_up": 177,
+        "subsystem": 124
+      },
+      "by_source": {
+        "complexportal": 2150,
+        "gem": 283,
+        "go": 14091,
+        "goa_rna": 181,
+        "msigdb": 10840,
+        "reactome": 2439,
+        "signor": 1362,
+        "uniprot": 863,
+        "wikipathways": 959
+      },
+      "entities": 44108,
+      "id_coverage": {
+        "ensembl": 0.9833,
+        "entrez": 0.9903,
+        "hgnc": 0.9419,
+        "symbol": 0.9903
+      },
+      "sets": 33168
+    },
+    "human/lipid": {
+      "by_category": {
+        "lm_category": 8,
+        "lm_main_class": 86,
+        "lm_sub_class": 300,
+        "pathway": 357,
+        "subsystem": 79
+      },
+      "by_source": {
+        "gem": 79,
+        "lipidmaps": 394,
+        "reactome": 215,
+        "wikipathways": 142
+      },
+      "entities": 21410,
+      "id_coverage": {
+        "chebi": 0.3767,
+        "exact": 0.3278,
+        "hmdb": 0.134,
+        "inchikey": 0.9731,
+        "kegg": 0.0871,
+        "lipidmaps": 1.0,
+        "molecular": 0.1422,
+        "pubchem": 0.973,
+        "species": 0.3278,
+        "swisslipids": 0.1247
+      },
+      "sets": 830
+    },
+    "human/metabolite": {
+      "by_category": {
+        "biological_role": 540,
+        "chemical_class": 1874,
+        "enzyme_class": 149,
+        "pathway": 2289,
+        "subsystem": 128
+      },
+      "by_source": {
+        "chebi": 2414,
+        "gem": 277,
+        "reactome": 1847,
+        "wikipathways": 442
+      },
+      "entities": 6401,
+      "id_coverage": {
+        "chebi": 0.3624,
+        "hmdb": 0.3756,
+        "inchikey": 0.803,
+        "kegg": 0.4045,
+        "lipidmaps": 0.1984,
+        "pubchem": 0.1989
+      },
+      "sets": 4980
+    },
+    "human/microbe": {
+      "by_category": {
+        "signature": 8256
+      },
+      "by_source": {
+        "bugsigdb": 8256
+      },
+      "entities": 3990,
+      "id_coverage": {},
+      "sets": 8256
+    },
+    "human/ncrna": {
+      "curated_pairs": 2160,
+      "entities": 61038,
+      "families": 2179,
+      "mature": 2783,
+      "seed_families": 1985,
+      "sets": 3080,
+      "sponge_lnc": 3277,
+      "utr_cov_genes": 19042
+    },
+    "human/peptides": {
+      "names": 407
+    },
+    "human/protein": {
+      "by_category": {
+        "complex": 2207,
+        "enzyme_class": 159,
+        "go_bp": 9746,
+        "go_cc": 1552,
+        "go_mf": 2828,
+        "keyword": 632,
+        "location": 234,
+        "msigdb_cancer": 1006,
+        "msigdb_celltype": 865,
+        "msigdb_cgp": 3552,
+        "msigdb_hallmark": 50,
+        "msigdb_immune": 4872,
+        "msigdb_oncogenic": 189,
+        "msigdb_positional": 291,
+        "pathway": 3350,
+        "signor_kinase": 276,
+        "signor_phosphatase": 59,
+        "signor_reg_down": 193,
+        "signor_reg_up": 575,
+        "signor_tf_down": 85,
+        "signor_tf_up": 177,
+        "subsystem": 123
+      },
+      "by_source": {
+        "complexportal": 2207,
+        "gem": 282,
+        "go": 14126,
+        "msigdb": 10825,
+        "reactome": 2391,
+        "signor": 1365,
+        "uniprot": 866,
+        "wikipathways": 959
+      },
+      "entities": 20001,
+      "id_coverage": {
+        "symbol": 0.9938,
+        "uniprot": 0.9999
+      },
+      "sets": 33021
+    },
+    "human/ptm": {
+      "by_category": {
+        "ptm_enzyme_note": 226,
+        "ptm_protein": 9672,
+        "ptm_type": 14,
+        "signor_kinase": 264,
+        "signor_phosphatase": 51
+      },
+      "by_source": {
+        "signor": 315,
+        "uniprot": 9912
+      },
+      "entities": 77307,
+      "id_coverage": {
+        "site": 1.0
+      },
+      "sets": 10227
+    },
+    "microbe/amr": {
+      "by_category": {
+        "amr_antibiotic": 199,
+        "amr_drugclass": 69,
+        "amr_family": 319
+      },
+      "by_source": {
+        "aro": 587
+      },
+      "entities": 7001,
+      "id_coverage": {},
+      "sets": 587
+    },
+    "microbe/amrf": {
+      "by_category": {
+        "amrf_class": 36,
+        "amrf_subclass": 78,
+        "amrf_subtype": 9,
+        "amrf_type": 3
+      },
+      "by_source": {
+        "amrfinderplus": 126
+      },
+      "entities": 1880,
+      "id_coverage": {
+        "allele": 0.2362
+      },
+      "sets": 126
+    },
+    "microbe/amrfinderplus": {
+      "rows": 11456,
+      "sets": 263
+    },
+    "microbe/aro": {
+      "determinants_with_sets": 7001,
+      "sets": {
+        "antibiotic": 288,
+        "drugclass": 86,
+        "family": 319
+      },
+      "terms": 9022
+    },
+    "microbe/backbone": {
+      "by_rank": {
+        "class": 272,
+        "domain": 2,
+        "family": 1273,
+        "genus": 6289,
+        "kingdom": 8,
+        "order": 582,
+        "phylum": 241,
+        "species": 30445
+      },
+      "legacy": 24,
+      "merged": 13580,
+      "synonyms": 15206,
+      "taxa": 39112
+    },
+    "microbe/bgc": {
+      "by_category": {
+        "bgc_activity": 27,
+        "bgc_class": 12
+      },
+      "by_source": {
+        "mibig": 39
+      },
+      "entities": 960,
+      "id_coverage": {},
+      "sets": 39
+    },
+    "microbe/bugsigdb": {
+      "incomplete": 394,
+      "no_taxa": 205,
+      "other_host": 1511,
+      "rows": 15177,
+      "signatures_in_release": {
+        "human": 5830,
+        "mouse": 662
+      },
+      "species_signatures_in_release": {
+        "human": 2426,
+        "mouse": 199
+      },
+      "taxa": 106744,
+      "taxa_above_genus": 24944,
+      "taxa_missing": 10174
+    },
+    "microbe/metanetx": {
+      "bigg.metabolite": 2716,
+      "kegg.compound": 16439,
+      "metacyc.compound": 13145,
+      "seed.compound": 19833
+    },
+    "microbe/mibig": {
+      "entries": 3013,
+      "inactive": 576,
+      "no_taxon": 476,
+      "source": "https://dl.secondarymetabolites.org/mibig/mibig_json_4.0.tar.gz",
+      "unknown_class_values": {},
+      "unrecognised": 0,
+      "used": 1961
+    },
+    "microbe/silva": {
+      "file_head": [
+        "Archaea;\t2\tdomain\t\t",
+        "Archaea;Aenigmarchaeota;\t11084\tphylum\t\t123",
+        "Archaea;Aenigmarchaeota;Aenigmarchaeia;\t42913\tclass\t\t138",
+        "Archaea;Aenigmarchaeota;Aenigmarchaeia;Aenigmarchaeales;\t42914\torder\t\t138",
+        "Archaea;Aenigmarchaeota;Aenigmarchaeia;Aenigmarchaeales;Candidatus Aenigmarchaeum;\t42915\tgenus\t\t138"
+      ],
+      "ranks": {
+        "class": {
+          "by_via": {
+            "rolled_up": 100,
+            "scientific": 111,
+            "synonym": 24,
+            "unresolved": 298
+          },
+          "n": 533
+        },
+        "family": {
+          "by_via": {
+            "equivalent": 1,
+            "rolled_up": 269,
+            "rolled_up_prefix": 33,
+            "scientific": 556,
+            "synonym": 36,
+            "unresolved": 605
+          },
+          "n": 1500
+        },
+        "genus": {
+          "by_via": {
+            "equivalent": 2,
+            "rolled_up": 403,
+            "rolled_up_prefix": 290,
+            "scientific": 3106,
+            "synonym": 143,
+            "unresolved": 5175
+          },
+          "n": 9119
+        },
+        "order": {
+          "by_via": {
+            "rolled_up": 284,
+            "rolled_up_prefix": 8,
+            "scientific": 265,
+            "synonym": 26,
+            "unresolved": 720
+          },
+          "n": 1303
+        },
+        "phylum": {
+          "by_via": {
+            "equivalent": 1,
+            "legacy": 1,
+            "rolled_up": 51,
+            "scientific": 40,
+            "synonym": 11,
+            "unresolved": 119
+          },
+          "n": 223
+        }
+      },
+      "unresolved_above_genus": {
+        "class": [
+          "Aenigmarchaeia",
+          "Deep Sea Euryarchaeotic Group(DSEG)",
+          "Altiarchaeia",
+          "Heimdallarchaeia",
+          "ANME-1",
+          "uncultured",
+          "Nanosalinia",
+          "Acetothermiia",
+          "AT-s3-28",
+          "c5LKS83",
+          "d142",
+          "FFCH5909",
+          "GBS-L1-B05",
+          "ODP1230B23.02",
+          "Vicinamibacteria",
+          "MB-A2-108",
+          "RBG-16-55-12",
+          "WCHB1-81",
+          "Desulfurobacteriia",
+          "DG-56",
+          "Chlorobia",
+          "Kapabacteria",
+          "Kryptonia",
+          "OC31",
+          "Caldatribacteriia",
+          "JS1",
+          "Calescibacteriia",
+          "Campylobacteria",
+          "AD3",
+          "Gitt-GS-136",
+          "JG30-KF-CM66",
+          "KD4-96",
+          "N9D0",
+          "NLS2-31",
+          "OLB14",
+          "P2-11E",
+          "SHA-26",
+          "SL56 marine group",
+          "TK10",
+          "TK17",
+          "TK30",
+          "Chrysiogenetes",
+          "Cyanobacteriia",
+          "Vampirivibrionia",
+          "Dadabacteriia",
+          "Defferrisomatia",
+          "4-29",
+          "Lineage IIa",
+          "Lineage IIb",
+          "Lineage IIc",
+          "Rs-M47",
+          "BRH-c20a",
+          "D8A-2",
+          "Incertae Sedis",
+          "Moorellia",
+          "Natranaerobiia",
+          "Thermacetogenia",
+          "Thermoanaerobacteria",
+          "Thermovenabulia",
+          "TSAC18",
+          "TTA-B61",
+          "uncultured",
+          "YNPFFP2",
+          "AKAU4049",
+          "BD2-11 terrestrial group",
+          "MD2902-B12",
+          "PAUC43f marine benthic group",
+          "S0134 terrestrial group",
+          "Halanaerobiia",
+          "bacteriap25",
+          "Polyangia",
+          "MT5B39",
+          "P9X2b3D02",
+          "4-29-1",
+          "661256",
+          "BMS9AB35",
+          "HDB-SIOI1093",
+          "ABY1",
+          "CPR2",
+          "Dojkabacteria",
+          "Gracilibacteria",
+          "Kazania",
+          "MD2896-B216",
+          "uncultured",
+          "WWE3",
+          "028H05-P-BN-P5",
+          "BD7-11",
+          "ODP123",
+          "OM190",
+          "Pla3 lineage",
+          "Pla4 lineage",
+          "SGST604",
+          "SPG12-343-353-B69",
+          "vadinHA49",
+          "Brachyspirae",
+          "Leptospirae",
+          "MVP-15",
+          "V2072-189E03",
+          "Kiritimatiellae",
+          "Omnitrophia",
+          "Entamoebida",
+          "Incertae Sedis",
+          "Incertae Sedis",
+          "Discosea",
+          "LEMD267",
+          "Protosporangiidae",
+          "Labyrinthulomycetes",
+          "Tubulinea",
+          "Choanoflagellida",
+          "Corallochytrea",
+          "Filasterea",
+          "Ichthyosporea",
+          "Asteroidea",
+          "Crinoidea",
+          "Echinoidea",
+          "Holothuroidea",
+          "Ophiuroidea",
+          "Enteropneusta",
+          "Graptolithoidea",
+          "Leptocardii",
+          "Appendicularia",
+          "Ascidiacea",
+          "Thaliacea",
+          "Cephalaspidomorphi",
+          "Myxini",
+          "Chondrichthyes",
+          "Actinopterygii",
+          "Sarcopterygii",
+          "Amphibia",
+          "Aves",
+          "Crocodylia",
+          "Lepidosauria",
+          "Mammalia",
+          "Testudines",
+          "Sagittoidea",
+          "Arachnida",
+          "Merostomata",
+          "Pycnogonida",
+          "Branchiopoda",
+          "Malacostraca",
+          "Maxillopoda",
+          "Ostracoda",
+          "Diplura",
+          "Ellipura",
+          "Insecta",
+          "Chilopoda",
+          "Diplopoda",
+          "Incertae Sedis",
+          "Chromadorea",
+          "Enoplea",
+          "Gordioida",
+          "Udeonycophora",
+          "Eutardigrada",
+          "Heterotardigrada",
+          "Archiacanthocephala",
+          "Eoacanthocephala",
+          "Palaeacanthocephala",
+          "Annelida Incertae Sedis",
+          "Clitellata",
+          "Myzostomida",
+          "Polychaeta",
+          "Gymnolaemata",
+          "Phylactolaemata",
+          "Stenolaemata",
+          "Solitaria",
+          "Linguliformea",
+          "Phoroniformea",
+          "Rhynchonelliformea",
+          "Bivalvia",
+          "Caudofoveata",
+          "Cephalopoda",
+          "Gastropoda",
+          "Polyplacophora",
+          "Scaphopoda",
+          "Anopla",
+          "Enopla",
+          "Pauropoda",
+          "Catenulida",
+          "Cestoda",
+          "Monogenea",
+          "Rhabditophora",
+          "Trematoda",
+          "Bdelloidea",
+          "Monogononta",
+          "Acoela",
+          "Nemertodermatida",
+          "Anthozoa",
+          "Cubozoa",
+          "Hydrozoa",
+          "Myxozoa",
+          "Scyphozoa",
+          "Nuda",
+          "Tentaculata",
+          "Calcarea",
+          "Hexactinellida",
+          "Demospongiae",
+          "Homoscleromorpha",
+          "Blastocladiomycetes",
+          "Chytridiomycetes",
+          "Monoblepharidomycetes"
+        ],
+        "family": [
+          "Altiarchaeaceae",
+          "Methanomethyliaceae",
+          "Terrestrial Hot Spring Gp(THSCG)",
+          "Ignicoccaceae",
+          "SCGC AAA261-C22",
+          "SCGC AAA471-B05",
+          "Methanothermobacteriaceae",
+          "Haloadaptaceae",
+          "Halomicrobiaceae",
+          "J07HX5",
+          "Rice Cluster II",
+          "ANME-2a-2b",
+          "ANME-2c",
+          "Methanoperedenaceae",
+          "Syntrophoarchaeaceae",
+          "CG1-02-32-21",
+          "CG1-02-57-44",
+          "GW2011",
+          "GW2011_GWC1_47_15",
+          "SCGC AAA011-D5",
+          "SCGC AAA286-E23",
+          "Nanosalinaceae",
+          "Aciduliprofundaceae",
+          "Acidobacteriaceae (Subgroup 1)",
+          "Koribacteraceae",
+          "Acidimicrobiales Incertae Sedis",
+          "Microtrichaceae",
+          "uncultured",
+          "Actinomycetales Incertae Sedis",
+          "Corynebacteriales Incertae Sedis",
+          "AKAU3644",
+          "Micrococcales Incertae Sedis",
+          "Streptosporangiales Incertae Sedis",
+          "Coriobacteriales Incertae Sedis",
+          "Rubrobacteriaceae",
+          "67-14",
+          "Hydrogenobaculaceae",
+          "009E01-B-SD-P15",
+          "3M1PL1-52 termite group",
+          "Bacteroidales BS11 gut group",
+          "Bacteroidales Incertae Sedis",
+          "Bacteroidales RF16 group",
+          "Bacteroidales UCG-001",
+          "Bacteroidetes BD2-2",
+          "Bacteroidetes vadinHA17",
+          "CAP-aah99b04",
+          "COB P4-1 termite group",
+          "CR-115",
+          "F082",
+          "FTLpost3",
+          "gir-aah93h0",
+          "GZKB124",
+          "HAW-RM37-2",
+          "Ika33",
+          "LKC2.127-25",
+          "M2PB4-65 termite group",
+          "MgMjR-022",
+          "ML635J-40 aquatic group",
+          "p-251-o5",
+          "p-2534-18B5 gut group",
+          "PeH15",
+          "RH-aaj90h05",
+          "Rs-E47 termite group",
+          "SB-5",
+          "vadinHA21",
+          "37-13",
+          "MWH-CFBk5",
+          "Spirosomaceae",
+          "Flavobacteriales Incertae Sedis",
+          "NS7 marine group",
+          "NS9 marine group",
+          "ADurb.Bin408",
+          "AKYH767",
+          "CMW-169",
+          "CWT CU03-E12",
+          "E6aC02",
+          "env.OPS 17",
+          "FFCH9454",
+          "GWF2-29-10",
+          "KD1-131",
+          "KD3-93",
+          "LiUU-11-161",
+          "NS11-12 marine group",
+          "S15-21",
+          "S15A-MN91",
+          "s74e-6049",
+          "SBYC-2600",
+          "ST-12K33",
+          "Z4MB62",
+          "BSN166",
+          "BSV40",
+          "LD-RB-34",
+          "PHOS-HE36",
+          "SM1H02",
+          "SR-FBR-L83",
+          "UA-50",
+          "BSV26",
+          "Kryptoniaceae",
+          "MSB-3C8",
+          "LF045",
+          "TTA-B15",
+          "TTA-B1",
+          "WCHB1-02",
+          "CH8-1-BAC",
+          "P6-b51",
+          "PS-B32",
+          "Rs-M59 termite group",
+          "A4b",
+          "AKIW781",
+          "AKYG1722",
+          "JG30-KF-CM45",
+          "Dehalococcoidales Incertae Sedis",
+          "AB-539-J10",
+          "JG30-KF-AS9",
+          "CW-1 termite group",
+          "GZKB75",
+          "LK-44f",
+          "MSBL8",
+          "NK-L14",
+          "PBS-18",
+          "SHA-41",
+          "SHA-4",
+          "W27",
+          "Chroococcidiopsaceae",
+          "Cyanobacteriales Incertae Sedis",
+          "Geitlerinemaceae",
+          "Gloeocapsaceae",
+          "Paraspirulinaceae",
+          "Rubidibacteraceae",
+          "uncultured",
+          "Eurycoccales Incertae Sedis",
+          "Leptococcaceae",
+          "uncultured",
+          "Limnotrichaceae",
+          "Unknown Family",
+          "Phormidesmiaceae",
+          "uncultured",
+          "Synechococcales Incertae Sedis",
+          "Defferrisomataceae",
+          "UBA12409",
+          "UBA12411",
+          "Vermiphilaceae",
+          "C8S-102",
+          "MA-28-I98C",
+          "Sva1033",
+          "Unknown Family",
+          "09D2Z48",
+          "B122",
+          "B18",
+          "B5-096",
+          "Candidatus Raymondbacteria",
+          "MAT-CR-H6-H10",
+          "SBXY-748",
+          "SBYC",
+          "SBYS-2995",
+          "SBYZ-1017",
+          "TG3",
+          "Aneurinibacillaceae",
+          "Marinococcaceae",
+          "Salisediminibacteriaceae",
+          "Brevibacillaceae",
+          "Caldalkalibacillaceae",
+          "Entomoplasmatales Incertae Sedis",
+          "type III",
+          "Erysipelatoclostridiaceae",
+          "Exiguobacteraceae",
+          "Haloplasmataceae",
+          "Kyrpidiaceae",
+          "Catellicoccaceae",
+          "P5D1-392",
+          "Garciellaceae",
+          "Ethanoligenenaceae",
+          "UCG-010",
+          "UCG-011",
+          "uncultured",
+          "[Clostridium] methylpentosum group",
+          "Family XI",
+          "GoM-GC232-4463-Bac1",
+          "uncultured",
+          "Syntrophobotulaceae",
+          "Ammonificaceae",
+          "Carboxydothermaceae",
+          "Desulfotomaculales Incertae Sedis",
+          "uncultured",
+          "Symbiobacteraceae",
+          "uncultured",
+          "Thermaerobacteraceae",
+          "Carboxydocellaceae",
+          "Caldicellulosiraptoraceae",
+          "Family III",
+          "Family IV",
+          "SRB2",
+          "uncultured",
+          "Hydrogenedensaceae",
+          "WX65",
+          "27F-1492R",
+          "Amb-16S-1034",
+          "BIrii41",
+          "Eel-36e1D6",
+          "LWQ8"
+        ],
+        "order": [
+          "Aenigmarchaeales",
+          "Altiarchaeales",
+          "Methanomethyliales",
+          "Caldiarchaeales",
+          "Group 1.1c",
+          "Marine Benthic Group A",
+          "SCGC AB-179-E04",
+          "Geoarchaeales",
+          "Terrestrial Miscellaneous Gp(TMCG)",
+          "ANME-1a",
+          "ANME-1b",
+          "Halobacterales",
+          "Methanonatronaechaeales",
+          "Methanosarciniales",
+          "Woesearchaeales",
+          "Nanosalinales",
+          "A10",
+          "Acidiprofundales",
+          "BSLdp215",
+          "JdFR-43",
+          "Marine Benthic Group D and DHVEG-1",
+          "Marine Group II",
+          "SG8-5",
+          "AKIW659",
+          "AMGG11",
+          "Elev-16S-1166",
+          "GOUTB8",
+          "PAUC26f",
+          "TSBb06",
+          "11-24",
+          "DS-100",
+          "Elev-16S-573",
+          "11B-2",
+          "Subgroup 17",
+          "Subgroup 9",
+          "IMCC26256",
+          "Microtrichales",
+          "0319-7L14",
+          "Elev-16S-976",
+          "FFCH16263",
+          "KIST-JJY010",
+          "PeM15",
+          "CG2-30-50-142",
+          "FS118-23B-02",
+          "OPB41",
+          "Thermophilales",
+          "Hydrogenothermales",
+          "Bacteroidetes VC2.1 Bac22",
+          "ML602M-17",
+          "SM1A07",
+          "SJA-28",
+          "Kapabacteriales",
+          "Kryptoniales",
+          "0319-6G20",
+          "053A03-B-DI-P58",
+          "Caldatribacteriales",
+          "1-20",
+          "ADurb.Bin180",
+          "C10-SB1A",
+          "KZNMV-5-B42",
+          "MSB-5B2",
+          "MSB-5E12",
+          "RBG-13-54-9",
+          "SBR1031",
+          "SJA-15",
+          "Elev-1554",
+          "1226B1H1-22-FL",
+          "185B01",
+          "3051bac4-16",
+          "661239",
+          "DscP2",
+          "ER-E4-17",
+          "FS117-23B-02",
+          "FW22",
+          "GIF3",
+          "GIF9",
+          "H3.93",
+          "JdFR-54",
+          "MB-C2-126",
+          "MSBL5",
+          "Napoli-4B-65",
+          "RBG-13-46-9",
+          "S085",
+          "SAR202 clade",
+          "Sh765B-AG-111",
+          "Sh765B-TzT-20",
+          "SPG12-343-353-B75",
+          "SPG12-461-471-B8",
+          "t0.6.f",
+          "vadinBA26",
+          "B10-SB3A",
+          "B12-WMSP1",
+          "C0119",
+          "MVP-21",
+          "MSBL2",
+          "Chloroplast",
+          "Cyanobacteriales",
+          "Eurycoccales",
+          "Limnotrichales",
+          "Oxyphotobacteria Incertae Sedis",
+          "Phormidesmiales",
+          "RD017",
+          "SepB-3",
+          "Thermosynechococcales",
+          "uncultured",
+          "Caenarcaniphilales",
+          "Dadabacteriales",
+          "Defferrisomatales",
+          "PB19",
+          "FCPU453",
+          "Lineage IV",
+          "MD2894-B20",
+          "MVP-88",
+          "Chitinivibrionia Incertae Sedis",
+          "Aneurinibacillales",
+          "Brevibacillales",
+          "Exiguobacterales",
+          "Haloplasmatales",
+          "Kyrpidiales",
+          "RF39",
+          "RsaHf231",
+          "Staphylococcales",
+          "Thermoactinomycetales",
+          "Clostridia UCG-014",
+          "Clostridia vadinBB60 group",
+          "MAT-CR-H4-C10",
+          "Oscillospirales",
+          "Peptostreptococcales-Tissierellales",
+          "Proteinivoracales",
+          "Ammonifexales",
+          "DTU014",
+          "B55-F-B-G02",
+          "M55-D21",
+          "MBA03",
+          "Calderihabitantales",
+          "NRB23",
+          "Veillonellales-Selenomonadales",
+          "Symbiobacteriales",
+          "Thermovenabulales",
+          "Hydrogenedentiales",
+          "Rokubacteriales",
+          "Blfdi19",
+          "FFCH16767",
+          "MidBa8",
+          "mle1-27",
+          "MSB-4B10",
+          "PS-B29",
+          "UASB-TL25",
+          "VHS-B3-70",
+          "VHS-B4-70",
+          "Leptospirillales",
+          "Magnetobacteriales",
+          "Candidatus Buchananbacteria",
+          "Candidatus Jacksonbacteria",
+          "Candidatus Kerfeldbacteria",
+          "Candidatus Komeilibacteria",
+          "Candidatus Kuenenbacteria",
+          "Candidatus Magasanikbacteria",
+          "Candidatus Uhrbacteria",
+          "Absconditabacteriales (SR1)",
+          "Candidatus Abawacabacteria",
+          "Candidatus Peregrinibacteria",
+          "JGI 0000069-P22",
+          "Candidatus Amesbacteria",
+          "Candidatus Beckwithbacteria",
+          "Candidatus Chisholmbacteria",
+          "Candidatus Collierbacteria",
+          "Candidatus Curtissbacteria",
+          "Candidatus Daviesbacteria",
+          "Candidatus Gottesmanbacteria",
+          "Candidatus Levybacteria",
+          "Candidatus Pacebacteria",
+          "Candidatus Roizmanbacteria",
+          "Candidatus Shapirobacteria",
+          "Candidatus Woesebacteria",
+          "Candidatus Woykebacteria",
+          "32-520",
+          "Candidatus Adlerbacteria",
+          "Candidatus Azambacteria",
+          "Candidatus Brennerbacteria",
+          "Candidatus Campbellbacteria",
+          "Candidatus Colwellbacteria",
+          "Candidatus Doudnabacteria",
+          "Candidatus Giovannonibacteria",
+          "Candidatus Jorgensenbacteria",
+          "Candidatus Kaiserbacteria",
+          "Candidatus Liptonbacteria",
+          "Candidatus Lloydbacteria",
+          "Candidatus Moranbacteria",
+          "Candidatus Nealsonbacteria",
+          "Candidatus Nomurabacteria",
+          "Candidatus Portnoybacteria",
+          "Candidatus Ryanbacteria",
+          "Candidatus Spechtbacteria",
+          "Candidatus Staskawiczbacteria",
+          "Candidatus Terrybacteria",
+          "Candidatus Vogelbacteria",
+          "Candidatus Wolfebacteria",
+          "Candidatus Yanofskybacteria",
+          "Candidatus Yonathbacteria"
+        ],
+        "phylum": [
+          "Aenigmarchaeota",
+          "Altiarchaeota",
+          "Crenarchaeota",
+          "Halobacterota",
+          "Nanohaloarchaeota",
+          "10bav-F6",
+          "AncK6",
+          "Apal-E12",
+          "BHI80-139",
+          "Calescamantes",
+          "Chloroflexi",
+          "CK-2C2-2",
+          "Deferrisomatota",
+          "Dependentiae",
+          "Desantisbacteria",
+          "DTB120",
+          "Edwardsbacteria",
+          "Entotheonellaeota",
+          "FCPU426",
+          "Fervidibacteria",
+          "Firestonebacteria",
+          "Firmicutes",
+          "FW113",
+          "GAL15",
+          "GN01",
+          "Halanaerobiaeota",
+          "Hydrogenedentes",
+          "Hydrothermae",
+          "LCP-89",
+          "Margulisbacteria",
+          "Marinimicrobia (SAR406 clade)",
+          "MAT-CR-M4-B07",
+          "MBNT15",
+          "Modulibacteria",
+          "NB1-j",
+          "NKB15",
+          "Patescibacteria",
+          "PAUC34f",
+          "RCP2-54",
+          "Rs-K70 termite group",
+          "SAR324 clade(Marine group B)",
+          "Schekmanbacteria",
+          "Sva0485",
+          "TA06",
+          "TX1A-33",
+          "WOR-1",
+          "WPS-2",
+          "WS1",
+          "WS2",
+          "WS4",
+          "Zixibacteria",
+          "Archamoebae",
+          "Cavosteliida",
+          "Centrohelida",
+          "Dictyostelia",
+          "Fractovitelliida",
+          "Gracilipodida",
+          "Apusomonadidae",
+          "Breviatea",
+          "Rigifilida",
+          "Myxogastria",
+          "Protosporangiida",
+          "Protosteliida",
+          "SAR",
+          "Schizoplasmodiida",
+          "uncultured",
+          "Echinodermata",
+          "Hemichordata",
+          "Cephalochordata",
+          "Tunicata",
+          "Vertebrata",
+          "Chaetognatha",
+          "Arthropoda",
+          "Nematozoa",
+          "Onychophora",
+          "Scalidophora",
+          "Tardigrada",
+          "Acanthocephala",
+          "Annelida",
+          "Bryozoa",
+          "Entoprocta",
+          "Gastrotricha",
+          "Gnathostomulida",
+          "Lophophorata",
+          "Micrognathozoa",
+          "Mollusca",
+          "Nemertea",
+          "Platyhelminthes",
+          "Rotifera",
+          "Xenacoelomorpha",
+          "uncultured",
+          "Cnidaria",
+          "Ctenophora",
+          "Orthonectida",
+          "Rhombozoa",
+          "Placozoa",
+          "Porifera",
+          "Aphelidea",
+          "Blastocladiomycota",
+          "Chytridiomycota",
+          "Cryptomycota",
+          "Ascomycota",
+          "Basidiomycota",
+          "Dikarya Incertae Sedis",
+          "Incertae Sedis",
+          "LKM15",
+          "Microsporidia",
+          "Mucoromycota",
+          "Neocallimastigomycota",
+          "uncultured",
+          "Zoopagomycota",
+          "Nucleariidae and Fonticula group",
+          "Chlorokybophyceae",
+          "Klebsormidiophyceae",
+          "Mesostigmatophyceae",
+          "Phragmoplastophyta",
+          "Bangiales",
+          "Compsopogonales",
+          "Cyanidiales",
+          "Florideophycidae",
+          "Porphyridiophyceae",
+          "Rhodellophyceae",
+          "Kathablepharidae",
+          "uncultured",
+          "Euglenozoa",
+          "Heterolobosea",
+          "Fornicata",
+          "Parabasalia",
+          "Preaxostyla",
+          "Pav3",
+          "Pavlovophyceae",
+          "Prymnesiophyceae",
+          "T58",
+          "uncultured",
+          "Ancyromonadida",
+          "Apusomonadidae",
+          "NAMAKO-1",
+          "Picozoa",
+          "SA1-3C06",
+          "Acavomonidia",
+          "Apicomplexa",
+          "Ciliophora",
+          "Dinoflagellata",
+          "Incertae Sedis",
+          "Protalveolata",
+          "uncultured",
+          "Cercozoa",
+          "Retaria",
+          "Bicosoecida",
+          "Hyphochytriomycetes",
+          "Incertae Sedis",
+          "Labyrinthulomycetes",
+          "MAST-11",
+          "MAST-12",
+          "MAST-16",
+          "MAST-1",
+          "MAST-22",
+          "MAST-23",
+          "MAST-24",
+          "MAST-2",
+          "MAST-3",
+          "MAST-4",
+          "MAST-6",
+          "MAST-7",
+          "MAST-8",
+          "MAST-9",
+          "Diatomea",
+          "Opalinata",
+          "Peronosporomycetes",
+          "uncultured"
+        ]
+      }
+    },
+    "mouse/enzyme": {
+      "genes": 2444,
+      "metabolites": 1753,
+      "reactions": 5510
+    },
+    "mouse/gene": {
+      "by_category": {
+        "complex": 564,
+        "enzyme_class": 160,
+        "go_bp": 10611,
+        "go_cc": 1518,
+        "go_mf": 2830,
+        "keyword": 488,
+        "location": 230,
+        "msigdb_celltype": 233,
+        "msigdb_cgp": 984,
+        "msigdb_hallmark": 50,
+        "pathway": 1931,
+        "subsystem": 124
+      },
+      "by_source": {
+        "complexportal": 564,
+        "gem": 284,
+        "go": 14959,
+        "msigdb": 1267,
+        "reactome": 1721,
+        "uniprot": 718,
+        "wikipathways": 210
+      },
+      "entities": 21051,
+      "id_coverage": {
+        "ensembl": 0.9505,
+        "entrez": 1.0,
+        "mgi": 0.9994,
+        "symbol": 0.9999
+      },
+      "sets": 19723
+    },
+    "mouse/lipid": {
+      "by_category": {
+        "lm_category": 8,
+        "lm_main_class": 86,
+        "lm_sub_class": 300,
+        "pathway": 196,
+        "subsystem": 78
+      },
+      "by_source": {
+        "gem": 78,
+        "lipidmaps": 394,
+        "reactome": 163,
+        "wikipathways": 33
+      },
+      "entities": 21410,
+      "id_coverage": {
+        "chebi": 0.3767,
+        "exact": 0.3278,
+        "hmdb": 0.134,
+        "inchikey": 0.9731,
+        "kegg": 0.0871,
+        "lipidmaps": 1.0,
+        "molecular": 0.1422,
+        "pubchem": 0.973,
+        "species": 0.3278,
+        "swisslipids": 0.1247
+      },
+      "sets": 668
+    },
+    "mouse/metabolite": {
+      "by_category": {
+        "biological_role": 457,
+        "chemical_class": 1566,
+        "enzyme_class": 139,
+        "pathway": 1299,
+        "subsystem": 130
+      },
+      "by_source": {
+        "chebi": 2023,
+        "gem": 269,
+        "reactome": 1233,
+        "wikipathways": 66
+      },
+      "entities": 4424,
+      "id_coverage": {
+        "chebi": 0.4198,
+        "hmdb": 0.3332,
+        "inchikey": 0.8287,
+        "kegg": 0.4803,
+        "lipidmaps": 0.1788,
+        "pubchem": 0.245
+      },
+      "sets": 3591
+    },
+    "mouse/microbe": {
+      "by_category": {
+        "signature": 861
+      },
+      "by_source": {
+        "bugsigdb": 861
+      },
+      "entities": 869,
+      "id_coverage": {},
+      "sets": 861
+    },
+    "mouse/peptides": {
+      "names": 285
+    },
+    "mouse/protein": {
+      "by_category": {
+        "complex": 606,
+        "enzyme_class": 159,
+        "go_bp": 10744,
+        "go_cc": 1551,
+        "go_mf": 2880,
+        "keyword": 501,
+        "location": 233,
+        "msigdb_celltype": 233,
+        "msigdb_cgp": 983,
+        "msigdb_hallmark": 50,
+        "pathway": 1941,
+        "subsystem": 124
+      },
+      "by_source": {
+        "complexportal": 606,
+        "gem": 283,
+        "go": 15175,
+        "msigdb": 1266,
+        "reactome": 1731,
+        "uniprot": 734,
+        "wikipathways": 210
+      },
+      "entities": 17220,
+      "id_coverage": {
+        "symbol": 0.9807,
+        "uniprot": 0.9981
+      },
+      "sets": 20005
+    },
+    "mouse/ptm": {
+      "by_category": {
+        "ptm_enzyme_note": 207,
+        "ptm_protein": 8898,
+        "ptm_type": 14
+      },
+      "by_source": {
+        "uniprot": 9119
+      },
+      "entities": 66354,
+      "id_coverage": {
+        "site": 1.0
+      },
+      "sets": 9119
+    },
+    "msigdb": {
+      "by_collection": {
+        "human/C1 Positional": 302,
+        "human/C2 CGP Chemical and genetic perturbations": 3555,
+        "human/C4 3CA Curated Cancer Cell Atlas metaprograms": 148,
+        "human/C4 CGN Cancer gene neighborhoods": 427,
+        "human/C4 CM Cancer modules": 431,
+        "human/C6 Oncogenic signatures": 189,
+        "human/C7 ImmuneSigDB": 4872,
+        "human/C8 Cell type signatures": 866,
+        "human/H Hallmark": 50,
+        "mouse/M2 CGP Chemical and genetic perturbations": 984,
+        "mouse/M8 Cell type signatures": 233,
+        "mouse/MH Mouse hallmark": 50
+      },
+      "denied": 0,
+      "sets": 12107,
+      "unknown_genes": 58
+    },
+    "ncrna_signor": {
+      "activation_skipped": 9,
+      "arm_unspecified": 30,
+      "pairs_added": 212,
+      "repression": 217,
+      "rows": 226,
+      "unmatched_mirna": 24,
+      "unmatched_target": 0
+    },
+    "ptm": {
+      "by_type": {
+        "human/ADP-ribosyl": 139,
+        "human/Acetyl": 6646,
+        "human/Crotonyl": 224,
+        "human/Hydroxyl": 1216,
+        "human/Lactyl": 272,
+        "human/Malonyl": 45,
+        "human/Methyl": 2089,
+        "human/N-glycan": 16142,
+        "human/Nitrosyl": 76,
+        "human/O-glycan": 1891,
+        "human/Phospho": 40918,
+        "human/SUMO": 5532,
+        "human/Succinyl": 1288,
+        "human/Ubiquitin": 971,
+        "mouse/ADP-ribosyl": 85,
+        "mouse/Acetyl": 6329,
+        "mouse/Crotonyl": 190,
+        "mouse/Hydroxyl": 885,
+        "mouse/Lactyl": 201,
+        "mouse/Malonyl": 30,
+        "mouse/Methyl": 1936,
+        "mouse/N-glycan": 13894,
+        "mouse/Nitrosyl": 72,
+        "mouse/O-glycan": 1002,
+        "mouse/Phospho": 37069,
+        "mouse/SUMO": 4424,
+        "mouse/Succinyl": 1439,
+        "mouse/Ubiquitin": 878
+      },
+      "enzyme_notes": 684,
+      "sites": 141465
+    },
+    "signed_projection": {
+      "human/gene": {
+        "edges": 202743,
+        "pooled_pairs": 40794,
+        "projected_graphs": 1679,
+        "signed_edges": 195432
+      },
+      "human/protein": {
+        "edges": 199662,
+        "pooled_pairs": 40794,
+        "projected_graphs": 1678,
+        "signed_edges": 192349
+      },
+      "mouse/gene": {
+        "edges": 36422,
+        "pooled_pairs": 9624,
+        "projected_graphs": 595,
+        "signed_edges": 36239
+      },
+      "mouse/protein": {
+        "edges": 35515,
+        "pooled_pairs": 9624,
+        "projected_graphs": 594,
+        "signed_edges": 35332
+      }
+    },
+    "signor": {
+      "by_category": {
+        "signor_kinase": 454,
+        "signor_phosphatase": 110,
+        "signor_reg_down": 969,
+        "signor_reg_up": 2056,
+        "signor_tf_down": 323,
+        "signor_tf_up": 535
+      },
+      "mirna_rows": {
+        "human": 226,
+        "mouse": 24
+      },
+      "rows": 22879,
+      "sets": 4447,
+      "signed_edges": {
+        "human": 15157,
+        "mouse": 0
+      }
+    }
+  },
+  "files": {
+    "chebi/classes.json.gz": {
+      "bytes": 725590,
+      "path": "dist/2026.10.10/chebi/classes.json.gz",
+      "sha256": "675a71957680b68bef29d2fe6f5aa23ce21aa5a3097a7cd99ecd6ad749e05f73"
+    },
+    "chebi/entities.json.gz": {
+      "bytes": 630347,
+      "path": "dist/2026.10.10/chebi/entities.json.gz",
+      "sha256": "62d48786f9621140079e837d74e21b6610c30a528ee96964e3e3adfdc482dcfa"
+    },
+    "chebi/forms.json.gz": {
+      "bytes": 42575,
+      "path": "dist/2026.10.10/chebi/forms.json.gz",
+      "sha256": "7c61ebcea6c63130d20355eb0862b78f818e97f5ae44a2110ddce7d98ac6f32a"
+    },
+    "chebi/xref.json.gz": {
+      "bytes": 3558633,
+      "path": "dist/2026.10.10/chebi/xref.json.gz",
+      "sha256": "e814a79229c34dc33959d12e2f9fcd8edd5ffbdce6c80fdb3d07f9e3f06552b0"
+    },
+    "human/enzyme/reactions.json.gz": {
+      "bytes": 129964,
+      "path": "dist/2026.10.10/human/enzyme/reactions.json.gz",
+      "sha256": "a5d240621498eb2e8a2d8ed97df49693d0d1310042ee47f93b111e23204f1894"
+    },
+    "human/gene/sets.json.gz": {
+      "bytes": 7303432,
+      "path": "dist/2026.10.10/human/gene/sets.json.gz",
+      "sha256": "52bc3a14e0451a19da6cd901ff4a2ff4c5e973b8c7c56ed7e77be3a1e660d09a"
+    },
+    "human/gene/signed_topology.json.gz": {
+      "bytes": 956651,
+      "path": "dist/2026.10.10/human/gene/signed_topology.json.gz",
+      "sha256": "dfeef4cfb32901f0da3113305fccbc28bfac6d3584cee4a92fac7e9c914558d9"
+    },
+    "human/gene/xref.json.gz": {
+      "bytes": 1289259,
+      "path": "dist/2026.10.10/human/gene/xref.json.gz",
+      "sha256": "492d7f8f3f8e2761d19f5956f51d656c8b9433357274c2afbf3a70e769a2c749"
+    },
+    "human/lipid/sets.json.gz": {
+      "bytes": 369477,
+      "path": "dist/2026.10.10/human/lipid/sets.json.gz",
+      "sha256": "01c48e15ec83b75992eb4c50e76e06a30f8bb39d4a7b49ab11b9818e64f61350"
+    },
+    "human/lipid/xref.json.gz": {
+      "bytes": 2062810,
+      "path": "dist/2026.10.10/human/lipid/xref.json.gz",
+      "sha256": "da169a1e1729769264d11193704f22eb3c09e9a5fe1a8e63b79f2ddb203571a0"
+    },
+    "human/metabolite/sets.json.gz": {
+      "bytes": 362101,
+      "path": "dist/2026.10.10/human/metabolite/sets.json.gz",
+      "sha256": "0b30247e8ba7fca405f51516e7a5400f3eecf8079341f10bdb86ead3f3f83786"
+    },
+    "human/metabolite/topology.json.gz": {
+      "bytes": 170941,
+      "path": "dist/2026.10.10/human/metabolite/topology.json.gz",
+      "sha256": "36199c47cc94f3339833a22770ce7e52c1ed89c40b2118962bcbe5f6cf9fa36b"
+    },
+    "human/metabolite/xref.json.gz": {
+      "bytes": 702608,
+      "path": "dist/2026.10.10/human/metabolite/xref.json.gz",
+      "sha256": "cd52fc5a2d8077a07f030b681ada3f4525df017fb447a007487027b519f2e5a4"
+    },
+    "human/microbe/sets.json.gz": {
+      "bytes": 309418,
+      "path": "dist/2026.10.10/human/microbe/sets.json.gz",
+      "sha256": "1ee47cbb12853b89f2c50202f3e3e88585eed93d434e1686541c3f7865b6ec37"
+    },
+    "human/microbe/signatures.json.gz": {
+      "bytes": 507743,
+      "path": "dist/2026.10.10/human/microbe/signatures.json.gz",
+      "sha256": "6fafa118f851406ddd1e38d8352b9a332b7c408992d2570b409c2b5b609a16b2"
+    },
+    "human/microbe/xref.json.gz": {
+      "bytes": 32,
+      "path": "dist/2026.10.10/human/microbe/xref.json.gz",
+      "sha256": "f0627d31a0d7a3a2d73c4d606147b7888fbdd75b3d59338762949e808d2a54ad"
+    },
+    "human/ncrna/entities.json.gz": {
+      "bytes": 1682221,
+      "path": "dist/2026.10.10/human/ncrna/entities.json.gz",
+      "sha256": "4717a9d6a21bd383d2514dbe1f1b3fd04210cd320adc4f98e55a454e243cb49c"
+    },
+    "human/ncrna/links.json.gz": {
+      "bytes": 513075,
+      "path": "dist/2026.10.10/human/ncrna/links.json.gz",
+      "sha256": "0619c404c6b08c90ed601183afa33dcbb05f2ff9af82041783d829e9d3a9c749"
+    },
+    "human/ncrna/seed_high.json.gz": {
+      "bytes": 2245068,
+      "path": "dist/2026.10.10/human/ncrna/seed_high.json.gz",
+      "sha256": "2b58f3b8d60a34575c3c46c400b5bc320c7c94802d3b22d12657e20c87d55ae9"
+    },
+    "human/ncrna/seed_medium.json.gz": {
+      "bytes": 3082841,
+      "path": "dist/2026.10.10/human/ncrna/seed_medium.json.gz",
+      "sha256": "3b66b54f62ca174d026321b1b6c4284db3cecffa3778dbbd410f5f1330220ca7"
+    },
+    "human/ncrna/sets.json.gz": {
+      "bytes": 591614,
+      "path": "dist/2026.10.10/human/ncrna/sets.json.gz",
+      "sha256": "c1df54d37669ea0e15f27fd092ede288e9bf3528823d97821130221fe1f874ed"
+    },
+    "human/ncrna/targets.json.gz": {
+      "bytes": 135367,
+      "path": "dist/2026.10.10/human/ncrna/targets.json.gz",
+      "sha256": "56f3a266e38a4c7cc666ed5f50c78000c09bbdf0970d72abf6cf811a7e2e2f2c"
+    },
+    "human/ncrna/xref.json.gz": {
+      "bytes": 1013583,
+      "path": "dist/2026.10.10/human/ncrna/xref.json.gz",
+      "sha256": "48df9872a363bd44dfedbaeb25e8b364e1d1497ba3fe64171e96911789475842"
+    },
+    "human/protein/peptides.json.gz": {
+      "bytes": 6754,
+      "path": "dist/2026.10.10/human/protein/peptides.json.gz",
+      "sha256": "9f8848187f1ddbe61514eca2eb72fe9cdcf8379eb9653186d4117263af27e6f0"
+    },
+    "human/protein/sets.json.gz": {
+      "bytes": 7057976,
+      "path": "dist/2026.10.10/human/protein/sets.json.gz",
+      "sha256": "a97be448d81cb17feb7f58236accda37cc40d90bfda0109d3926a541c9c8fbc6"
+    },
+    "human/protein/signed_topology.json.gz": {
+      "bytes": 943312,
+      "path": "dist/2026.10.10/human/protein/signed_topology.json.gz",
+      "sha256": "f8f7a28c9d73ea42a05d728e5b59e19343c191c269a10253fae7d0800f55eb84"
+    },
+    "human/protein/xref.json.gz": {
+      "bytes": 226609,
+      "path": "dist/2026.10.10/human/protein/xref.json.gz",
+      "sha256": "0eb9149b86d60aead0377f00af8c0c97cb881ab3aa29d94dffa68dbd0e2f8002"
+    },
+    "human/ptm/sets.json.gz": {
+      "bytes": 1033035,
+      "path": "dist/2026.10.10/human/ptm/sets.json.gz",
+      "sha256": "121b7820c9cfdad822d513fdfc62f01293fabb7955741a5bb2a22367e405842a"
+    },
+    "human/ptm/xref.json.gz": {
+      "bytes": 2126568,
+      "path": "dist/2026.10.10/human/ptm/xref.json.gz",
+      "sha256": "46bcb98250d48a04b2dcf55098f7a9d54765dc7004fb5b5479bd05c2071a36b2"
+    },
+    "lipid_classes.json": {
+      "bytes": 3154,
+      "path": "dist/2026.10.10/lipid_classes.json",
+      "sha256": "94c33ad6680f83fcd07439d629d0f28ab73988823159edc44e1d0c0a4cc980e9"
+    },
+    "lipid_table.json": {
+      "bytes": 26295,
+      "path": "dist/2026.10.10/lipid_table.json",
+      "sha256": "e413e39b7a0f1a9b57133274540672273918154fb5b95b474a71a38b1813b7ef"
+    },
+    "microbe/amr/sets.json.gz": {
+      "bytes": 125384,
+      "path": "dist/2026.10.10/microbe/amr/sets.json.gz",
+      "sha256": "857a82dc6bea469e7d372a13bf71013644e5c205f1711e120325cc45dd580879"
+    },
+    "microbe/amr/xref.json.gz": {
+      "bytes": 50354,
+      "path": "dist/2026.10.10/microbe/amr/xref.json.gz",
+      "sha256": "be592cd568a2dae5333be629177a2e8d4976006740eb68ee5f1d0a8eb0c70ce0"
+    },
+    "microbe/amrf/sets.json.gz": {
+      "bytes": 33073,
+      "path": "dist/2026.10.10/microbe/amrf/sets.json.gz",
+      "sha256": "d281a916faaaede649975ddf99250003b85b120e41bcd892ff4a386eb8fec130"
+    },
+    "microbe/amrf/xref.json.gz": {
+      "bytes": 23269,
+      "path": "dist/2026.10.10/microbe/amrf/xref.json.gz",
+      "sha256": "301cc1536490a5707d3e6c77da2347c8903edcbed0c4beaa43d646cebb749db5"
+    },
+    "microbe/bgc/sets.json.gz": {
+      "bytes": 14440,
+      "path": "dist/2026.10.10/microbe/bgc/sets.json.gz",
+      "sha256": "0ebbf128659cbd63520dd363ee716f237402f14d25140e51e1ed75d13e73983c"
+    },
+    "microbe/bgc/xref.json.gz": {
+      "bytes": 32,
+      "path": "dist/2026.10.10/microbe/bgc/xref.json.gz",
+      "sha256": "f0627d31a0d7a3a2d73c4d606147b7888fbdd75b3d59338762949e808d2a54ad"
+    },
+    "microbe/bgc_entries.json.gz": {
+      "bytes": 44480,
+      "path": "dist/2026.10.10/microbe/bgc_entries.json.gz",
+      "sha256": "5f260059a88b808ae617d42acd362fb55ca3b5026b0c000a2473c66755a7604c"
+    },
+    "microbe/clinical_flags.json": {
+      "bytes": 2410,
+      "path": "dist/2026.10.10/microbe/clinical_flags.json",
+      "sha256": "abb208d1f293ecc4fc0f0b1ca3c2c9cd2195a4db45b6a859105da8d3734b6f84"
+    },
+    "microbe/compound_bridge.json.gz": {
+      "bytes": 311623,
+      "path": "dist/2026.10.10/microbe/compound_bridge.json.gz",
+      "sha256": "a70fff6d1c4f92122a2ea4f0db05b55932a57f3fcc29e1a79d5857ede843e94d"
+    },
+    "microbe/taxa.json.gz": {
+      "bytes": 689895,
+      "path": "dist/2026.10.10/microbe/taxa.json.gz",
+      "sha256": "acf367e9fc155f115f8b8db436dad8a20d392db02c0da943eb92f74c8775191f"
+    },
+    "mouse/enzyme/reactions.json.gz": {
+      "bytes": 105218,
+      "path": "dist/2026.10.10/mouse/enzyme/reactions.json.gz",
+      "sha256": "81dac6e9121e230d0a5fed125aed3166ceb72bcd11763482481b9fb9d7e23ac6"
+    },
+    "mouse/gene/sets.json.gz": {
+      "bytes": 3248581,
+      "path": "dist/2026.10.10/mouse/gene/sets.json.gz",
+      "sha256": "b2e7de3402b4eda2ada2cb8f86c03420b3e6140af38910cac43faee9cf759ffd"
+    },
+    "mouse/gene/signed_topology.json.gz": {
+      "bytes": 178319,
+      "path": "dist/2026.10.10/mouse/gene/signed_topology.json.gz",
+      "sha256": "85ea9962f2940c65c3b73973ce568e33961f44d7c27d2dc3a96d9ac9ae078b4c"
+    },
+    "mouse/gene/xref.json.gz": {
+      "bytes": 741937,
+      "path": "dist/2026.10.10/mouse/gene/xref.json.gz",
+      "sha256": "3eb48497fbf19959668154c96ed8f124ebc585c5c1a09cfa636a8b9a5d9eaf40"
+    },
+    "mouse/lipid/sets.json.gz": {
+      "bytes": 363878,
+      "path": "dist/2026.10.10/mouse/lipid/sets.json.gz",
+      "sha256": "20c2e1dfc5b6d0e2d401d3eff4ba6534dc281e245ab71de550580404ed77aff7"
+    },
+    "mouse/lipid/xref.json.gz": {
+      "bytes": 2062810,
+      "path": "dist/2026.10.10/mouse/lipid/xref.json.gz",
+      "sha256": "da169a1e1729769264d11193704f22eb3c09e9a5fe1a8e63b79f2ddb203571a0"
+    },
+    "mouse/metabolite/sets.json.gz": {
+      "bytes": 253640,
+      "path": "dist/2026.10.10/mouse/metabolite/sets.json.gz",
+      "sha256": "18dd371ce36982d8b524c3ce495ef902b57116f16686db09882c0c94c0f70abc"
+    },
+    "mouse/metabolite/topology.json.gz": {
+      "bytes": 123863,
+      "path": "dist/2026.10.10/mouse/metabolite/topology.json.gz",
+      "sha256": "9081acb9e1b26e8880cb68dd2179a4a29e441f47ea9c66221480f36505966af0"
+    },
+    "mouse/metabolite/xref.json.gz": {
+      "bytes": 512626,
+      "path": "dist/2026.10.10/mouse/metabolite/xref.json.gz",
+      "sha256": "d2120d9a633467d62af38c6ad290b180bd5fd1f583aec36f54c3b2356b81de9c"
+    },
+    "mouse/microbe/sets.json.gz": {
+      "bytes": 33460,
+      "path": "dist/2026.10.10/mouse/microbe/sets.json.gz",
+      "sha256": "432f375d7f347d9600c15befcabf47c76f4433cdd379c821c0948d38ec5efd0e"
+    },
+    "mouse/microbe/signatures.json.gz": {
+      "bytes": 51465,
+      "path": "dist/2026.10.10/mouse/microbe/signatures.json.gz",
+      "sha256": "fa1efcb7f880ab3870a4e11fa0f03e4222b94b58a793675136e6e178755cb142"
+    },
+    "mouse/microbe/xref.json.gz": {
+      "bytes": 32,
+      "path": "dist/2026.10.10/mouse/microbe/xref.json.gz",
+      "sha256": "f0627d31a0d7a3a2d73c4d606147b7888fbdd75b3d59338762949e808d2a54ad"
+    },
+    "mouse/protein/peptides.json.gz": {
+      "bytes": 4834,
+      "path": "dist/2026.10.10/mouse/protein/peptides.json.gz",
+      "sha256": "c7c9cef456fccb9e51a6521b0af6ab5c3d1dd2c7295f6295042b358931d5f8e0"
+    },
+    "mouse/protein/sets.json.gz": {
+      "bytes": 3541373,
+      "path": "dist/2026.10.10/mouse/protein/sets.json.gz",
+      "sha256": "9f7e5e67d72ddd4492bfeaf33f3818fa0c3e094bc96c73d50a77218cd1070cbb"
+    },
+    "mouse/protein/signed_topology.json.gz": {
+      "bytes": 175772,
+      "path": "dist/2026.10.10/mouse/protein/signed_topology.json.gz",
+      "sha256": "ba70cf78ce4f9913adca829a58006907bf4ab281578f057a4079dd0d73b6d491"
+    },
+    "mouse/protein/xref.json.gz": {
+      "bytes": 193997,
+      "path": "dist/2026.10.10/mouse/protein/xref.json.gz",
+      "sha256": "b73e67279cbfecf83bdb1e5f2203383b84a64d7606049135bbf25c95dcc310d3"
+    },
+    "mouse/ptm/sets.json.gz": {
+      "bytes": 894678,
+      "path": "dist/2026.10.10/mouse/ptm/sets.json.gz",
+      "sha256": "a0884e213430f87c12c295434402ffe24c80cfcfba044e4b3cfd670c9d6ed0c9"
+    },
+    "mouse/ptm/xref.json.gz": {
+      "bytes": 1834860,
+      "path": "dist/2026.10.10/mouse/ptm/xref.json.gz",
+      "sha256": "ea230934434476abfdb9db5328af1342cb11af2b0a902aa5cd0ab8335d6f5c88"
+    },
+    "ontology/aro.json.gz": {
+      "bytes": 125750,
+      "path": "dist/2026.10.10/ontology/aro.json.gz",
+      "sha256": "2d868f25ff37f729435da9ab9884f183b0dca28f389ce5ed274b6e645cacad77"
+    },
+    "ontology/go.json.gz": {
+      "bytes": 639224,
+      "path": "dist/2026.10.10/ontology/go.json.gz",
+      "sha256": "963732b3c81bc36f63f2ae3f05beb5778b62232e742597516e550ec403736300"
+    },
+    "orthologs.json.gz": {
+      "bytes": 129891,
+      "path": "dist/2026.10.10/orthologs.json.gz",
+      "sha256": "95c2e55559b6f67b177772840a8a095052c6cfeae10f9d890dd80496e09b7aaa"
+    }
+  },
+  "layers": [
+    "gene",
+    "protein",
+    "metabolite",
+    "lipid",
+    "microbe",
+    "bgc",
+    "amr",
+    "amrf",
+    "ptm"
+  ],
+  "library": "om-open-library",
+  "notes": [
+    "Cross-reference identifiers (HMDB, KEGG) are mapping aliases only; no HMDB or KEGG pathway or compound content is included.",
+    "Mouse sets from Reactome and WikiPathways are largely orthology-projected from human curation."
+  ],
+  "sources": {
+    "amrfinderplus": {
+      "attribution": "AMRFinderPlus, National Center for Biotechnology Information (Feldgarden et al. 2021, Sci Rep 11:12728).",
+      "commercial_ok": true,
+      "license": "Public domain (NCBI)",
+      "name": "AMRFinderPlus reference gene catalog",
+      "provenance": {
+        "catalog": {
+          "bytes": 2330416,
+          "retrieved": "2026-10-10",
+          "sha256": "fa41ade01712841e639c91163243bace1c34755b927e69e0c8678540268a7fd4",
+          "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/Data/latest/ReferenceGeneCatalog.txt"
+        }
+      }
+    },
+    "aro": {
+      "attribution": "Antibiotic Resistance Ontology, CARD (card.mcmaster.ca), Alcock et al., CC BY 4.0. Only the ontology is used; CARD sequences, models and prevalence data are not.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0 (ontology only)",
+      "name": "Antibiotic Resistance Ontology (CARD ontologies)",
+      "provenance": {
+        "owl": {
+          "bytes": 12743305,
+          "retrieved": "2026-10-10",
+          "sha256": "0207b9156898d011cff6397a1cf5b0e178ce7806222c73de875b57a0d0e6b6fc",
+          "url": "https://raw.githubusercontent.com/arpcard/aro/master/aro.owl"
+        }
+      }
+    },
+    "bugsigdb": {
+      "attribution": "BugSigDB (bugsigdb.org), Geistlinger et al. 2023, Nat Biotechnol, doi:10.1038/s41587-023-01872-y, CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "BugSigDB",
+      "provenance": {
+        "full_dump": {
+          "bytes": 33222187,
+          "retrieved": "2026-10-10",
+          "sha256": "26350191adaef7aab72005a51e55dbc62c951e6019c3d0c5a19b41d2da8396cf",
+          "url": "https://raw.githubusercontent.com/waldronlab/BugSigDBExports/devel/full_dump.csv"
+        }
+      }
+    },
+    "chebi": {
+      "attribution": "ChEBI, EMBL-EBI (ebi.ac.uk/chebi), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "ChEBI",
+      "provenance": {
+        "accessions": {
+          "bytes": 3948630,
+          "retrieved": "2026-10-10",
+          "sha256": "49911e979f00664cde2ef8771f00fb4a20ddcf788ca4231b4a1ef07c9dde2dc1",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/database_accession.tsv.gz"
+        },
+        "compounds": {
+          "bytes": 6985591,
+          "retrieved": "2026-10-10",
+          "sha256": "7f55284d6a549dbb24c6cd0bc79f1b62bd074d6ce49dd2553f72c88d5ddec846",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/compounds.tsv.gz"
+        },
+        "names": {
+          "bytes": 9500349,
+          "retrieved": "2026-10-10",
+          "sha256": "320076af2aac73c894432ff6de39476ad97e8414429ae270b02076e60411e471",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/names.tsv.gz"
+        },
+        "ontology": {
+          "bytes": 7852321,
+          "retrieved": "2026-10-10",
+          "sha256": "db393b48ffca2a0a4ba0b7a3c60283c19888440b555e8a8f6b7a7d86ba879087",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi_lite.obo.gz"
+        },
+        "source_table": {
+          "bytes": 3723,
+          "retrieved": "2026-10-10",
+          "sha256": "c4b41aed6bd8a704ff03f3c6b90316f294b3ee4b6b8c3bdd74b5ce32f752edd5",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/source.tsv.gz"
+        },
+        "structures": {
+          "bytes": 92755407,
+          "retrieved": "2026-10-10",
+          "sha256": "3de49c65a05af4c10614021405bae7d49354d25c6c27f090baa674bab2aa8f3b",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/chebi/flat_files/structures.tsv.gz"
+        }
+      }
+    },
+    "complexportal": {
+      "attribution": "Complex Portal, EMBL-EBI.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "Complex Portal",
+      "provenance": {
+        "human": {
+          "bytes": 5292514,
+          "retrieved": "2026-10-10",
+          "sha256": "29d3aeec7ede35e8686de3cf73620b5871c3e68d7ca069385153a9b28e80012a",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/9606.tsv"
+        },
+        "mouse": {
+          "bytes": 1471187,
+          "retrieved": "2026-10-10",
+          "sha256": "ba66aed64325da4508f7c0c976831550c6aff015ab76eddb1ec9c96375027684",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/10090.tsv"
+        }
+      }
+    },
+    "gem": {
+      "attribution": "Human-GEM and Mouse-GEM, SysBioChalmers (github.com/SysBioChalmers), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "Human-GEM and Mouse-GEM",
+      "provenance": {
+        "human_genes": {
+          "bytes": 1132097,
+          "retrieved": "2026-10-10",
+          "sha256": "7b37ce037f4f1e2a01d92547145ffadccd792ec4d84a82632c84ed39fa2fb3de",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/genes.tsv"
+        },
+        "human_mets": {
+          "bytes": 2495993,
+          "retrieved": "2026-10-10",
+          "sha256": "c31439f997a6d4a68ba6d00971243a600d1c9523b736d876b285a8f8a4c9ab34",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/metabolites.tsv"
+        },
+        "human_rxns": {
+          "bytes": 953268,
+          "retrieved": "2026-10-10",
+          "sha256": "fc24110e552538a88a0c40fbdcae4be4adc00485824b0d6c8773a08a3420405e",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/reactions.tsv"
+        },
+        "human_yml": {
+          "bytes": 7882196,
+          "retrieved": "2026-10-10",
+          "sha256": "3b944902a44f5f0e9dfcf23f8b9b4a54891bfb85ae711f8540e72ffbfcfa1f9a",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Human-GEM/main/model/Human-GEM.yml"
+        },
+        "mouse_mets": {
+          "bytes": 910653,
+          "retrieved": "2026-10-10",
+          "sha256": "ff51b3ae9491d46eeb4d5778d4217132eaeee76fffe7d5113f23d5f3300814a0",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Mouse-GEM/main/model/metabolites.tsv"
+        },
+        "mouse_rxns": {
+          "bytes": 1246733,
+          "retrieved": "2026-10-10",
+          "sha256": "5b71f39a249678e555adbd8352e43ed0188280ba0845e3c9036b2355b999250f",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Mouse-GEM/main/model/reactions.tsv"
+        },
+        "mouse_yml": {
+          "bytes": 8001269,
+          "retrieved": "2026-10-10",
+          "sha256": "7afeeeab30aafbd102250b5a242645bd1d4b23068326f479224cc8cbb99fc25d",
+          "url": "https://raw.githubusercontent.com/SysBioChalmers/Mouse-GEM/main/model/Mouse-GEM.yml"
+        }
+      }
+    },
+    "gencode": {
+      "attribution": "GENCODE (gencodegenes.org), open access, Frankish et al. NAR. Ensembl, CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "Open access (GENCODE project, EMBL-EBI); Ensembl data CC BY 4.0",
+      "name": "GENCODE",
+      "provenance": {
+        "gtf_human": {
+          "bytes": 124527720,
+          "retrieved": "2026-10-10",
+          "sha256": "83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/latest_release/gencode.v50.annotation.gtf.gz"
+        },
+        "tx_human": {
+          "bytes": 183554921,
+          "retrieved": "2026-10-10",
+          "sha256": "5a320f524d73b5793518eb19b118829033713443d0f42af20a67bb31cc06cf56",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/latest_release/gencode.v50.transcripts.fa.gz"
+        }
+      }
+    },
+    "go": {
+      "attribution": "Gene Ontology Consortium (geneontology.org), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "Gene Ontology",
+      "provenance": {
+        "goa_human": {
+          "bytes": 11020779,
+          "retrieved": "2026-10-10",
+          "sha256": "92504b0208fc37d1b652beaab883298c169b0be342888b91924975a49778cfdb",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/goa_human.gaf.gz"
+        },
+        "goa_mouse": {
+          "bytes": 9741819,
+          "retrieved": "2026-10-10",
+          "sha256": "ea4b424447f6000a163c5a6742ebb326a02feeb0bdb64382f83a2159deb06e01",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/GO/goa/MOUSE/goa_mouse.gaf.gz"
+        },
+        "obo": {
+          "bytes": 32227785,
+          "retrieved": "2026-10-10",
+          "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+          "url": "https://purl.obolibrary.org/obo/go/go-basic.obo"
+        }
+      }
+    },
+    "goa_rna": {
+      "attribution": "Gene Ontology Consortium and EMBL-EBI GOA (RNA annotations incl. BHF-UCL miRNA curation), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "GO annotations of RNAs (GOA, RNAcentral)",
+      "provenance": {
+        "gaf_human": {
+          "bytes": 545075,
+          "retrieved": "2026-10-10",
+          "sha256": "7572bb3b79bf9474ab665256466e56064668f4f69b151ca60eeb8e602ae5fbce",
+          "url": "https://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/goa_human_rna.gaf.gz"
+        }
+      }
+    },
+    "hgnc": {
+      "attribution": "HGNC (genenames.org), released under CC0.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "HGNC (HUGO Gene Nomenclature Committee)",
+      "provenance": {
+        "complete_set": {
+          "bytes": 16963116,
+          "retrieved": "2026-10-10",
+          "sha256": "2b4224ea847df2fc6982f5b2a52804c5d92fbb8810b134afb636f6029452dc03",
+          "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt"
+        }
+      }
+    },
+    "lipidmaps": {
+      "attribution": "LIPID MAPS Structure Database (lipidmaps.org), CC BY 4.0. Sud M et al., Nucleic Acids Res 2007; 35:D527.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "LIPID MAPS Structure Database",
+      "provenance": {
+        "lmsd_sdf": {
+          "bytes": 21921603,
+          "retrieved": "2026-10-10",
+          "sha256": "065644fb30b4c7c54acf62d3fdc856d24760a7ddd722687d63cb5ba93f02f908",
+          "url": "https://www.lipidmaps.org/files/?file=LMSD&ext=sdf.zip"
+        }
+      }
+    },
+    "metanetx": {
+      "attribution": "MetaNetX (metanetx.org), Moretti et al. 2021, Nucleic Acids Res 49:D570, CC BY 4.0. Used only for identifier mappings to ChEBI in allowed namespaces.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0 (upstream licenses may apply)",
+      "name": "MetaNetX / MNXref",
+      "provenance": {
+        "chem_prop": {
+          "bytes": 809687076,
+          "retrieved": "2026-10-10",
+          "sha256": "8463f8ee94a1eaec6d6820a05bf09455675a9eb41ac72230dd0d85c9d6c800d2",
+          "url": "https://www.metanetx.org/cgi-bin/mnxget/mnxref/chem_prop.tsv"
+        },
+        "chem_xref": {
+          "bytes": 678508677,
+          "retrieved": "2026-10-10",
+          "sha256": "ba2451ffd9ba3342f8a64a966f8540d08ca82d9f70a28ee84a03aeb0bf6ed135",
+          "url": "https://www.metanetx.org/cgi-bin/mnxget/mnxref/chem_xref.tsv"
+        },
+        "reac_xref": {
+          "bytes": 80751943,
+          "retrieved": "2026-10-10",
+          "sha256": "2610e2998f582043a4e9d1a8ce42b7a8f4e2480e54d03ded26a7e83fd401f229",
+          "url": "https://www.metanetx.org/cgi-bin/mnxget/mnxref/reac_xref.tsv"
+        }
+      }
+    },
+    "mgi": {
+      "attribution": "Mouse Genome Informatics (informatics.jax.org).",
+      "commercial_ok": true,
+      "license": "Free for any use (MGI terms)",
+      "name": "MGI homology",
+      "provenance": {
+        "homology": {
+          "bytes": 15112222,
+          "retrieved": "2026-10-10",
+          "sha256": "b8220b7689f11066c3d82e0f24c23ba3c7a30ad26a0f24ab639357aebc09582d",
+          "url": "https://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt"
+        }
+      }
+    },
+    "mibig": {
+      "attribution": "MIBiG (mibig.secondarymetabolites.org), Zdouc et al. 2025, Nucleic Acids Res, CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "MIBiG",
+      "provenance": {
+        "json": {
+          "bytes": 954258,
+          "retrieved": "2026-10-10",
+          "sha256": "986f1a69fb5eeb84fd7c0175ae921304c22fd5f8ed04c96d8c1c0c95a145837b",
+          "url": "https://dl.secondarymetabolites.org/mibig/mibig_json_4.0.tar.gz"
+        }
+      }
+    },
+    "mirbase": {
+      "attribution": "miRBase (mirbase.org), in the public domain. Cite Kozomara et al., NAR 2019.",
+      "commercial_ok": true,
+      "license": "Public domain",
+      "name": "miRBase",
+      "provenance": {
+        "gff_human": {
+          "bytes": 545505,
+          "retrieved": "2026-10-10",
+          "sha256": "45b2aa4f8306dc6b86831f652acb166567efe9e59c599d1b6f009f15d3424d07",
+          "url": "https://mirbase.org/download/hsa.gff3"
+        },
+        "mature": {
+          "bytes": 6127225,
+          "retrieved": "2026-10-10",
+          "sha256": "52d69eeb3c23c5ed0f66c8c9f24e1ad2cd94cc34e72e4fc376c0dd438d2779ff",
+          "url": "https://mirbase.org/download/mature.fa"
+        }
+      }
+    },
+    "msigdb": {
+      "attribution": "Molecular Signatures Database (MSigDB), Broad Institute, UC San Diego and MIT, CC BY 4.0. Subramanian et al. 2005 PNAS; Liberzon et al. 2011 Bioinformatics; Liberzon et al. 2015 Cell Systems. Only collections on Om's allowlist are used; KEGG, BioCarta and ShareAlike collections are never read.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0 (Broad Institute MSigDB terms, allowlisted collections only)",
+      "name": "MSigDB (allowlisted collections)",
+      "provenance": {
+        "human_c1": {
+          "bytes": 354572,
+          "retrieved": "2026-10-10",
+          "sha256": "1ae8c6390857184e6a43e23cd0946f8f01649637f0ba390531208dd5d01f0722",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c1.all.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c2_cgp": {
+          "bytes": 2674485,
+          "retrieved": "2026-10-10",
+          "sha256": "8db69a5a0a721951f8841d060266676b03097ad2b292f05046632cf9f5e92dfc",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c2.cgp.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c4_3ca": {
+          "bytes": 60890,
+          "retrieved": "2026-10-10",
+          "sha256": "f1d657f2f8c692504bb05dcbe3c9137e606f2962310b41b0e4ac40a0bec81e8f",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c4.3ca.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c4_cgn": {
+          "bytes": 257222,
+          "retrieved": "2026-10-10",
+          "sha256": "7366cce8834f7868851a525c79db95556640dc7deff077e80d2c0de47ceb727e",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c4.cgn.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c4_cm": {
+          "bytes": 285562,
+          "retrieved": "2026-10-10",
+          "sha256": "8ef47bb659a064decd62a806cc61d79db208b84051262ae9f625c04c790e2be9",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c4.cm.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c6": {
+          "bytes": 183080,
+          "retrieved": "2026-10-10",
+          "sha256": "f1b12bc09e9aef90a8bd4f8e31abe6f14faee6eb72c6dfc6ba05f5e5ca734166",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c6.all.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c7_immunesigdb": {
+          "bytes": 6041117,
+          "retrieved": "2026-10-10",
+          "sha256": "a6c7addc8ab636fe95e7bbc9e402338b3a13ddcf4a6430eb27b388e0270e05eb",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c7.immunesigdb.v2026.1.Hs.entrez.gmt"
+        },
+        "human_c8": {
+          "bytes": 1023345,
+          "retrieved": "2026-10-10",
+          "sha256": "7b472668dd39e322c9acb9569900a687f765673a1150dd2ed5b2e8e63604fd1b",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/c8.all.v2026.1.Hs.entrez.gmt"
+        },
+        "human_h": {
+          "bytes": 43213,
+          "retrieved": "2026-10-10",
+          "sha256": "7b3c4de012b2a3aa8f90e5452c21fc8c116a31c30dd98ec00253816152ac9072",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Hs/h.all.v2026.1.Hs.entrez.gmt"
+        },
+        "mouse_m2_cgp": {
+          "bytes": 848393,
+          "retrieved": "2026-10-10",
+          "sha256": "5211264192f2b0987defca57c18a5147346327ecd41dc719e2e34f40429cf5de",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Mm/m2.cgp.v2026.1.Mm.entrez.gmt"
+        },
+        "mouse_m8": {
+          "bytes": 336695,
+          "retrieved": "2026-10-10",
+          "sha256": "2893f928ea0d9ead97b64be845ee4ac83ee47e7067528a74f4beb1770b4a845a",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Mm/m8.all.v2026.1.Mm.entrez.gmt"
+        },
+        "mouse_mh": {
+          "bytes": 49631,
+          "retrieved": "2026-10-10",
+          "sha256": "bdb44f69a6e3e5c938de470a98d7fcee19ecfa357c31cee024589c0041150e1d",
+          "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2026.1.Mm/mh.all.v2026.1.Mm.entrez.gmt"
+        }
+      }
+    },
+    "ncbi_gene": {
+      "attribution": "NCBI Gene, National Library of Medicine.",
+      "commercial_ok": true,
+      "license": "Public domain (NCBI)",
+      "name": "NCBI Gene",
+      "provenance": {
+        "human": {
+          "bytes": 5191996,
+          "retrieved": "2026-10-10",
+          "sha256": "cdeb1bfc6c43e6d375ccc40ee56d0a08e7befff60dbc63b364e2b1bb825e3727",
+          "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz"
+        },
+        "mouse": {
+          "bytes": 3932776,
+          "retrieved": "2026-10-10",
+          "sha256": "8adaa6d67b32165dfcd38fc55786cb168605453b661c050fb895100eb88b7062",
+          "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Mus_musculus.gene_info.gz"
+        }
+      }
+    },
+    "ncbi_taxonomy": {
+      "attribution": "NCBI Taxonomy, National Library of Medicine (ncbi.nlm.nih.gov/taxonomy).",
+      "commercial_ok": true,
+      "license": "Public domain (NCBI)",
+      "name": "NCBI Taxonomy",
+      "provenance": {
+        "taxdump": {
+          "bytes": 79796749,
+          "retrieved": "2026-10-10",
+          "sha256": "c1dd867c1d072ba058e39ab055d92f621e4569f5e592df86af330e9910be57f6",
+          "url": "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz"
+        }
+      }
+    },
+    "om_microbe": {
+      "attribution": "Om-curated taxon label mappings and annotation flags (OmVitalis). Flags cite the WHO Bacterial Priority Pathogens List 2024 and Rice 2008.",
+      "commercial_ok": true,
+      "license": "Om-authored (OmVitalis)",
+      "name": "Om microbe curation",
+      "provenance": {}
+    },
+    "reactome": {
+      "attribution": "Reactome (reactome.org), data released under CC0.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "Reactome",
+      "provenance": {
+        "chebi": {
+          "bytes": 37553966,
+          "retrieved": "2026-10-10",
+          "sha256": "ce9e6a27e72eea162b210ea200b7ec4bf678af82efdbb75fb83cb60a6668cb60",
+          "url": "https://reactome.org/download/current/ChEBI2Reactome_All_Levels.txt"
+        },
+        "ncbi": {
+          "bytes": 98024930,
+          "retrieved": "2026-10-10",
+          "sha256": "53bbe42b357655e341630898547af8d23badab592e6050c34d4317fbffc04ce4",
+          "url": "https://reactome.org/download/current/NCBI2Reactome_All_Levels.txt"
+        },
+        "pathways": {
+          "bytes": 1592393,
+          "retrieved": "2026-10-10",
+          "sha256": "f6d7a2bf89b5bcfe0250a0bc7f51bff94641447911712b8ff129f5b55e52df3a",
+          "url": "https://reactome.org/download/current/ReactomePathways.txt"
+        },
+        "relations": {
+          "bytes": 634259,
+          "retrieved": "2026-10-10",
+          "sha256": "fd49a624d80c14eb37ae57a02e141d574d5ede3f60022bb99edbd909448a3f1e",
+          "url": "https://reactome.org/download/current/ReactomePathwaysRelation.txt"
+        },
+        "uniprot": {
+          "bytes": 117823518,
+          "retrieved": "2026-10-10",
+          "sha256": "d2347cb04d1432f170ee0319283bd6314282909341488e9c33dc85aef663c68a",
+          "url": "https://reactome.org/download/current/UniProt2Reactome_All_Levels.txt"
+        }
+      }
+    },
+    "rhea": {
+      "attribution": "Rhea, the reaction knowledgebase (rhea-db.org), SIB Swiss Institute of Bioinformatics, CC BY 4.0. Bansal et al., Nucleic Acids Research. Used for the curated direction of reactions (which form of each reaction its cross-referenced databases were mapped to) and the ChEBI protonation mapping, as identifiers and form assignments only.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "Rhea",
+      "provenance": {
+        "directions": {
+          "bytes": 446712,
+          "retrieved": "2026-10-10",
+          "sha256": "deae1911da372c70ee8fc97992809c7923e63b288a8702fc4396edcb2633fb04",
+          "url": "https://ftp.expasy.org/databases/rhea/tsv/rhea-directions.tsv"
+        },
+        "ec": {
+          "bytes": 194308,
+          "retrieved": "2026-10-10",
+          "sha256": "33a62d491eb9f56b4e9e9a5ec2e0b27f5d92432d1afcd3afe101a4b36df331f8",
+          "url": "https://ftp.expasy.org/databases/rhea/tsv/rhea2ec.tsv"
+        },
+        "ph73": {
+          "bytes": 3099222,
+          "retrieved": "2026-10-10",
+          "sha256": "7076e992933d94e81b66e55d4977c4634b11ad5d9146052c0a25ebc72b5067b2",
+          "url": "https://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv"
+        },
+        "reactions": {
+          "bytes": 1556033,
+          "retrieved": "2026-10-10",
+          "sha256": "e0ca3d960873b7ebc4f66f1f8419f1c8595636a8310aa8e1f82055d63dc1390c",
+          "url": "https://ftp.expasy.org/databases/rhea/txt/rhea-reactions.txt.gz"
+        },
+        "xrefs": {
+          "bytes": 1196556,
+          "retrieved": "2026-10-10",
+          "sha256": "0f00a1de31cc093c74ce3e357ce6d05c0c2aba1d05c1c9632e18cd4873c69b53",
+          "url": "https://ftp.expasy.org/databases/rhea/tsv/rhea2xrefs.tsv"
+        }
+      }
+    },
+    "signor": {
+      "attribution": "SIGNOR, the SIGnaling Network Open Resource, University of Rome Tor Vergata (signor.uniroma2.it), CC BY 4.0. Lo Surdo et al., Nucleic Acids Research.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "SIGNOR 4.0",
+      "provenance": {
+        "all_data": {
+          "bytes": 21425930,
+          "retrieved": "2026-10-10",
+          "sha256": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd0926e5fae511ef9d06",
+          "url": "https://signor.uniroma2.it/releases/getLatestRelease.php"
+        }
+      }
+    },
+    "silva": {
+      "attribution": "SILVA (arb-silva.de), Quast et al. 2013, Nucleic Acids Res 41:D590, CC BY 4.0. Used for a coverage audit only; no SILVA names are copied into the library.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "SILVA taxonomy",
+      "provenance": {
+        "taxonomy": {
+          "bytes": 147515,
+          "retrieved": "2026-10-10",
+          "sha256": "887627935d83cc0ad88fb3cac93b154470304fec6e73cbb2a04ae625427a203d",
+          "url": "https://www.arb-silva.de/fileadmin/silva_databases/release_138_1/Exports/taxonomy/tax_slv_ssu_138.1.txt.gz"
+        }
+      }
+    },
+    "uniprot": {
+      "attribution": "UniProt Consortium (uniprot.org), CC BY 4.0.",
+      "commercial_ok": true,
+      "license": "CC BY 4.0",
+      "name": "UniProtKB",
+      "provenance": {
+        "idmap_human": {
+          "bytes": 38464542,
+          "retrieved": "2026-10-10",
+          "sha256": "5fb356e81b07a938ac4d8e8a4b5e0faa89001bcff2aef59422ff30eaa8e72996",
+          "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz"
+        },
+        "idmap_mouse": {
+          "bytes": 15536610,
+          "retrieved": "2026-10-10",
+          "sha256": "c9cb0e15fb417b550ecd7151e3eed9f42eecb1e334cb35d174fca90fd292a2ea",
+          "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/MOUSE_10090_idmapping.dat.gz"
+        },
+        "peptides_human": {
+          "bytes": 141913,
+          "retrieved": "2026-10-10",
+          "sha256": "fcc89ab6233f8b2f2be054366391a82135db112cccbf1aded04c20b2acac57eb",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cgene_primary%2Cft_peptide&query=%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29"
+        },
+        "peptides_mouse": {
+          "bytes": 122228,
+          "retrieved": "2026-10-10",
+          "sha256": "04b3135ef5616e2e8ad68f039fb95f22f2df0db35cc8ca2e4235b627c93fdb84",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cgene_primary%2Cft_peptide&query=%28organism_id%3A10090%29+AND+%28reviewed%3Atrue%29"
+        },
+        "ptm_human": {
+          "bytes": 682973,
+          "retrieved": "2026-10-10",
+          "sha256": "28ec04aa62083cd10ac2cd3efe1ed5b169b5f038855f1eee2aa6656386f1b4b8",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cft_mod_res%2Cft_carbohyd%2Cft_crosslnk&query=%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29"
+        },
+        "ptm_mouse": {
+          "bytes": 525344,
+          "retrieved": "2026-10-10",
+          "sha256": "64062a0f138add35c94e70b8382b0671e8127ad16ced08db25b2297e4b66db14",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cft_mod_res%2Cft_carbohyd%2Cft_crosslnk&query=%28organism_id%3A10090%29+AND+%28reviewed%3Atrue%29"
+        },
+        "reviewed_human": {
+          "bytes": 2038073,
+          "retrieved": "2026-10-10",
+          "sha256": "a947d6f02ba9f400ba03db26240a770951678c550ccd9184e9e9263cd577311c",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cgene_primary%2Cprotein_name%2Ckeyword%2Ccc_subcellular_location&query=%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29"
+        },
+        "reviewed_mouse": {
+          "bytes": 1641392,
+          "retrieved": "2026-10-10",
+          "sha256": "e395d568129fa9a8b36456a2f8ca3f6077c732b22c12ad6b395cde229835afa3",
+          "url": "https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=tsv&fields=accession%2Cgene_primary%2Cprotein_name%2Ckeyword%2Ccc_subcellular_location&query=%28organism_id%3A10090%29+AND+%28reviewed%3Atrue%29"
+        }
+      }
+    },
+    "wikipathways": {
+      "attribution": "WikiPathways (wikipathways.org), released under CC0.",
+      "commercial_ok": true,
+      "license": "CC0 1.0",
+      "name": "WikiPathways",
+      "provenance": {
+        "gmt_human": {
+          "bytes": 342229,
+          "retrieved": "2026-10-10",
+          "sha256": "09ef525557e81a524e3bb2dc59e6727564731ab70bba14ea11e3e01a20a4d3af",
+          "url": "https://data.wikipathways.org/current/gmt/wikipathways-20261010-gmt-Homo_sapiens.gmt"
+        },
+        "gmt_mouse": {
+          "bytes": 93819,
+          "retrieved": "2026-10-10",
+          "sha256": "3ad1f9a307aaa1c89c8522f8b4b2321100a804e80677c7df268ac9d49ddaa9b3",
+          "url": "https://data.wikipathways.org/current/gmt/wikipathways-20261010-gmt-Mus_musculus.gmt"
+        },
+        "gpml_human": {
+          "bytes": 11271102,
+          "retrieved": "2026-10-10",
+          "sha256": "1fc0e9ab37cc20ac14e0930bc2529c46ff88a9467c0daa47d25eb1b558ea90c6",
+          "url": "https://data.wikipathways.org/current/gpml/wikipathways-20261010-gpml-Homo_sapiens.zip"
+        },
+        "gpml_mouse": {
+          "bytes": 1948936,
+          "retrieved": "2026-10-10",
+          "sha256": "9b911de6486a8f45ae9d9bab31bc59a0d850b0355a04a72dc535eb532ca3ea4e",
+          "url": "https://data.wikipathways.org/current/gpml/wikipathways-20261010-gpml-Mus_musculus.zip"
+        }
+      }
+    }
+  },
+  "species": {
+    "human": 9606,
+    "mouse": 10090
+  },
+  "version": "2026.10.10"
+}
