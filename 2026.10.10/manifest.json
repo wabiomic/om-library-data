@@ -1,6 +1,6 @@
 {
-  "built": "2026-10-10T17:42:32+00:00",
-  "content_hash": "d99ff6b5686ce826",
+  "built": "2026-10-10T18:02:21+00:00",
+  "content_hash": "a0c4ce8c277b6c43",
   "counts": {
     "chebi": {
       "classes": 7443,
@@ -1515,10 +1515,10 @@
         "signed_edges": 195432
       },
       "human/protein": {
-        "edges": 199662,
+        "edges": 200308,
         "pooled_pairs": 40794,
         "projected_graphs": 1678,
-        "signed_edges": 192349
+        "signed_edges": 192992
       },
       "mouse/gene": {
         "edges": 36422,
@@ -1576,9 +1576,9 @@
       "sha256": "e814a79229c34dc33959d12e2f9fcd8edd5ffbdce6c80fdb3d07f9e3f06552b0"
     },
     "human/enzyme/reactions.json.gz": {
-      "bytes": 129964,
+      "bytes": 129965,
       "path": "dist/2026.10.10/human/enzyme/reactions.json.gz",
-      "sha256": "a5d240621498eb2e8a2d8ed97df49693d0d1310042ee47f93b111e23204f1894"
+      "sha256": "7f22323dfde7311120db0ce96c76f92fcc7171468d35c39b2b2fef7641412414"
     },
     "human/gene/sets.json.gz": {
       "bytes": 7303432,
@@ -1661,9 +1661,9 @@
       "sha256": "c1df54d37669ea0e15f27fd092ede288e9bf3528823d97821130221fe1f874ed"
     },
     "human/ncrna/targets.json.gz": {
-      "bytes": 135367,
+      "bytes": 135440,
       "path": "dist/2026.10.10/human/ncrna/targets.json.gz",
-      "sha256": "56f3a266e38a4c7cc666ed5f50c78000c09bbdf0970d72abf6cf811a7e2e2f2c"
+      "sha256": "8a97132737567d5e229bf751b05bb6e321d3ee335f84c06ef3643f4cd4036005"
     },
     "human/ncrna/xref.json.gz": {
       "bytes": 1013583,
@@ -1681,9 +1681,9 @@
       "sha256": "a97be448d81cb17feb7f58236accda37cc40d90bfda0109d3926a541c9c8fbc6"
     },
     "human/protein/signed_topology.json.gz": {
-      "bytes": 943312,
+      "bytes": 945242,
       "path": "dist/2026.10.10/human/protein/signed_topology.json.gz",
-      "sha256": "f8f7a28c9d73ea42a05d728e5b59e19343c191c269a10253fae7d0800f55eb84"
+      "sha256": "b33a6dd65f0a10b3e90582cca02860c5e9742836ecac159a64ae419feed39191"
     },
     "human/protein/xref.json.gz": {
       "bytes": 226609,
@@ -1761,9 +1761,9 @@
       "sha256": "acf367e9fc155f115f8b8db436dad8a20d392db02c0da943eb92f74c8775191f"
     },
     "mouse/enzyme/reactions.json.gz": {
-      "bytes": 105218,
+      "bytes": 105180,
       "path": "dist/2026.10.10/mouse/enzyme/reactions.json.gz",
-      "sha256": "81dac6e9121e230d0a5fed125aed3166ceb72bcd11763482481b9fb9d7e23ac6"
+      "sha256": "ec0c6cad3989ba16e8c11088322960e31d28191a3d35c818b5ee39dae239fb7c"
     },
     "mouse/gene/sets.json.gz": {
       "bytes": 3248581,

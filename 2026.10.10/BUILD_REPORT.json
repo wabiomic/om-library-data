@@ -2383,8 +2383,8 @@
    },
    "human/protein": {
     "projected_graphs": 1678,
-    "edges": 199662,
-    "signed_edges": 192349,
+    "edges": 200308,
+    "signed_edges": 192992,
     "pooled_pairs": 40794
    },
    "mouse/gene": {
